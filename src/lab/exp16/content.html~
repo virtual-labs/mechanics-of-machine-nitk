@@ -4,13 +4,7 @@
 <head>
     <title>Tchebichev Straight Line Mechanism </title>
 
-	<style type="text/css">
-#wrap {
-    width:85%;
-}
-
-
-</style>
+	
 </head>
 
 <body>
@@ -72,7 +66,8 @@
 
                     <div class="content" id=
                     "experiment-article-section-1-content">
-                        <div class="divContent" id="wrap">
+                        <div class="divContent" id="wrap"> <p> Tchebichev Mechanism consists of four links as shown in the figure.</p>
+<img src="../images/exp16T.jpg"/><p> OB and AQ are equal and crossed. Keeping the link lengths in the ratio AB:OQ:AQ = 1:2:2.5 allows the mid point of AB to move approximately in a straight line parallel to OQ.</p><br> There is also a Tchebichev Lambda Mechanism which converts rotation to approximate straight line motion with approximate constant velocity.</p>
                         </div>
                     
 					</div>
@@ -91,7 +86,12 @@
                     <div class="content" id=
                     "experiment-article-section-2-content">
                         <div class="divContent" id="wrap">
-                          
+   <p class="MsoNormal" style="line-height: 150%;">
+                            <span lang="EN-IN" style=
+                            'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
+                          The main purpose of this simulation is to understand the motion in Tchebichev Straight Line Mechanism. Change the parameters under the Variables Section in the simulation to see how the location and length of straight line motion changes.
+</span></p>
+
                             
 
                         </div>
@@ -109,29 +109,39 @@
                     <div class="heading" id=
                     "experiment-article-section-3-heading">
                         Self Evaluation
-                    </div><!-- Write the section content inside a paragraph 
-        element, we can also include images with &lt;img&gt; tag -->
-
-                    <div class="content" id=
+                    </div>
+<div class="content" id=
                     "experiment-article-section-3-content">
                         <div class="divQuiz">
-                            
+                            <div id="displayQuiz">
+                                <form id="form11" method="post" name="form11">
+                                  <p> Check your understanding after you have gone through the basic theory and the procedure to use the simulator.</p>                             
+ <a style="margin-top: 40px;float: left;
+width: auto;
+padding: 5px 15px;
+color: #FFF;
+background-color: #008B8B;
+border: 1px solid #FFF;
+border-radius: 5px;
+text-decoration: none;" href="index2.html">Get Started</a> 
+                                </form>
+                            </div><br>
                         </div>
                     </div>
                 </section>
    <section id="experiment-article-section-4">
                     <div class="icon" id="experiment-article-section-4-icon">
                     <!-- Enclose the icon image of your lab.-->
-                     <img src="../images/simulation.jpg" style="padding-left: 20px;"></div>
+                     <img src="../images/simulation.jpg" style="padding-left: 25px;"></div>
                     <div class="heading" id=
                     "experiment-article-section-4-heading">
-                        Simulator
+                        Simulation
                     </div>
 
-                    <div class="content" id=
-                    "experiment-article-section-4-content">
-                        <div class="divContent">
-                          <div class="jwts_title"><div class="jwts_title_left"><a href="javascript:void(null);" title="Click to open!" class="jwts_title_text">expN</a></div></div><div class="jwts_slidewrapper"><div> EXPLAIN for talking tutorial </p>
+            
+
+ <div class="jwts_title"><div class="jwts_title_left"><a href="#" onclick="toggle_visibility('foo4');" class="jwts_title_text">expN</a></div></div>
+<div id="foo4" style='display:none;margin-left:30px;'> EXPLAIN for talking tutorial </p>
 <p>
 	
 
@@ -144,13 +154,7 @@
 			
 <iframe width="800" height="600" src="https://www.youtube.com/embed/5i5NCXKJ-XE?rel=0" frameborder="0" allowfullscreen></iframe>
 		</span><br>
-
-				<a class="avLightbox" href="#AVPlayerID_12db10af" title="Click to view video in a lightbox popup">Dim lights</a>
 				
-				<!--<a class="avDownload" href="../images/swf/Tchebichev Mechanism.flv" title="Click to download media">Download</a>
-		
-				Embed <span class="avEmbed" id="embed_AVPlayerID_12db10af" title="Click to select"><b>Embed this video on your site</b></span>-->
-				Embed<input type="text" name="lastname" value="<iframe width=&quot;800&quot; height=&quot;600&quot; src=&quot;https://www.youtube.com/embed/5i5NCXKJ-XE?rel=0&quot; frameborder=&quot;0&quot; allowfullscreen></iframe>">
 
 
 	</span>
@@ -160,12 +164,14 @@
 
 </p>
 <p>
-	</div></div><div class="jwts_title"><div class="jwts_title_left"><a href="javascript:void(null);" title="Click to open!" class="jwts_title_text">expR</a></div></div><div class="jwts_slidewrapper"><div> EXPLORE User to explore all possibilities<br><object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0" height="600" width="800"><param name="quality" value="high" /><param name="movie" value="../images/swf/TchebecheffMech.swf" /><embed height="600" pluginspage="http://www.macromedia.com/go/getflashplayer" quality="high" src="../images/swf/TchebecheffMech.swf" type="application/x-shockwave-flash" width="800"></embed></object>&nbsp;</div></div> <div class="jwts_title"><div class="jwts_title_left"><a href="javascript:void(null);" title="Click to open!" class="jwts_title_text">expT</a></div></div><div class="jwts_slidewrapper"><div> EXPERIMENT User to conduct an experiment<br> </div></div> </div></p>
+	</div>
+<div class="jwts_title"><div class="jwts_title_left"><a href="#" onclick="toggle_visibility('foo5');" class="jwts_title_text">expR</a></div></div>
+<div id="foo5" style='display:none;margin-left:30px;'> EXPLORE User to explore all possibilities<br><object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0" height="600" width="800"><param name="quality" value="high" /><param name="movie" value="../images/swf/TchebecheffMech.swf" /><embed height="600" pluginspage="http://www.macromedia.com/go/getflashplayer" quality="high" src="../images/swf/TchebecheffMech.swf" type="application/x-shockwave-flash" width="800"></embed></object>&nbsp;</div>
 
-                        
-                    </div>
-
-			
+<div class="jwts_title"><div class="jwts_title_left"><a href="#" onclick="toggle_visibility('foo7');" class="jwts_title_text">expR (for Non-Flash Users)</a></div></div>
+<div id="foo7" style='display:none;margin-left:30px; width:800px; height:630px'>EXPLORE : User to explore all possibilities<br>
+<iframe width="800px" height="600px" src="../images/MOM/Tchebichev_ver2.html"></iframe>
+</div>
 
 
                 </section>
@@ -186,70 +192,97 @@
                     <div class="content" id=
                     "experiment-article-section-5-content">
                         <div class="divContent">
-                           
-                            
-                        </div>
-                    </div>
-                </section><!-- Second section of the article-->
-
-              
-                               
-    <section id="experiment-article-section-6">
-                    <div class="icon" id="experiment-article-section-6-icon">
-                    <!-- Enclose the icon image of your lab.-->
-                      <img src="../images/reference.jpg" style="padding-left: 15px;"></div>
-                    <div class="heading" id=
-                    "experiment-article-section-6-heading">
-                        Reference
-                    </div>
-
-                    <div class="content" id=
-                    "experiment-article-section-6-content">
-                        <div class="divContent">
-                            
-
+                          <ol><li>Prove that the mid point of the shortest link in Tchebichev linkage moves in approximate straight line. Also find the input angles between which it does so.</li></ol>
                         </div>
                     </div>
                 </section>
-             
 
-             
-   <section id="experiment-article-section-7">
-                    <div class="icon" id="experiment-article-section-7-icon">
-                    <!-- Enclose the icon image of your lab.-->
-                    <img src="../images/video.jpg"></div>
-
-                    <div class="heading" id=
-                    "experiment-article-section-7-heading">
-                        Video 
-                    </div>
-
-                    <div class="content" id=
-                    "experiment-article-section-7-content">
-                        
-                    </div>
-                </section>
-              
-
-                <section id="experiment-article-section-8">
+<section id="experiment-article-section-8">
                     <div class="icon" id="experiment-article-section-8-icon">
                     <!-- Enclose the icon image of your lab.-->
                     <img src="../images/quiz.jpg"></div>
-                    
-
-                    <div class="heading" id= "experiment-article-section-8-heading">
-                        &nbsp;Quiz 
+     <div class="heading" id=
+                    "experiment-article-section-8-heading">
+                        Quiz
                     </div>
 
+                    <div class="content" id=
+                    "experiment-article-section-8-content">
+                        <div class="divQuiz">
+                            <div id="displayQuiz">
+                                <form id="form11" method="post" name="form11">
+                                    <p> Check your ability to answer some of the questions relevant to the simulation that you used.</p> 
+ <a style="margin-top: 40px;float: left;
+width: auto;
+padding: 5px 15px;
+color: #FFF;
+background-color: #008B8B;
+border: 1px solid #FFF;
+border-radius: 5px;
+text-decoration: none;" href="index1.html">Get Started</a>
+
+
+                                   
+                                </form><br>
+                            </div><br>
+                        </div>
+                    </div>
+                </section> 
+
+                <section id="experiment-article-section-7">
+                    <div class="icon" id="experiment-article-section-7-icon">
                     
+                    <img src="../images/video.jpg" style="padding-left:7px"></div>
+
+                    <div class="heading" id=
+                    "experiment-article-section-7-heading">
+                        Videos
+                    </div>
+
+                    <div class="content" id="experiment-article-section-7-content">
+                        <div class="divContent">
+                         NPTEL:<br>
+                             <a href="https://www.youtube.com/watch?v=MJeRFzs4oRU&list=PLBEA57F7E7560C8E8">Kinematics of Machines</a><br>
+                        </div>
+                    </div>
                 </section>
 
-              
+           <section id="experiment-article-section-6">
+                    <div class="icon" id="experiment-article-section-6-icon">
+                   
+                    <img src="../images/reference.jpg" style="padding-left: 25px;"></div>
 
-               
+                    <div class="heading" id=
+                    "experiment-article-section-6-heading">
+                        References
+                    </div>
 
+                    <div class="content" id="experiment-article-section-6-content">
+                        <div class="divContent">
+                            <ul><li>
+                            <p style="font-family:courier new,courier,monospace; font-size:18px;"> Robert L Norton (2011), Design of Machinery (5th Ed.), McGraw Hill Publication </p></li>
+                            <li><p style="font-family:courier new,courier,monospace; font-size:18px;">Uicker J.J., Pennock G.R. and Shigley J.E. (2009), Theory of Machines and Mechanisms (3rd Ed.), Oxford University Press </p></li>
+                            <li><p style="font-family:courier new,courier,monospace; font-size:18px;"> S S Rattan (2014), Theory of Machines (4th Ed.), McGraw Hill Education (India) Private Limited</p></li>
+                        </ul></div>
+                    </div>
+                </section>
+<!--                 <section id="experiment-article-section-9">
+                    <div class="icon" id="experiment-article-section-9-icon">
+                    <!-- Enclose the icon image of your lab.-->
+    <!--                <img src="../images/nptel_library_icon.png"></div>
 
-            
+                    <div class="heading" id=
+                    "experiment-article-section-9-heading">
+                        NPTEL  
+                    </div>
+
+                    <div class="content" id=
+                    "experiment-article-section-9-content">
+                        <div class="divContent">
+                        </div>
+                    </div>
+                </section> -->
+
 
             </div>
         </article>

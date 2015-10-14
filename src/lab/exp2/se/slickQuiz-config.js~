@@ -1,0 +1,77 @@
+// Setup your quiz text and questions here
+
+// NOTE: pay attention to commas, IE struggles with those bad boys
+
+var quizJSON = {
+    "info": {
+        "name":    "Self Evaluation Exp1",
+        "main":    "<p></p>",
+        "results": "<p style='font-size:20px'><a href='index.html'><u>Click here</u></a> to go to simulation</p>",
+        "level1":  "Good! You can move on to the simulator right away",
+        "level2":  "Make sure to get that one right the next time",
+        "level3":  "You did well, but there is still scope of improvement. We suggest another reading of basics before going to simulator",
+        "level4":  "May be it is better you improve your understanding a little more before moving on to the simulator",
+        "level5":  "We think you should go through the theory once more before using the simulator" // no comma here
+    },
+    "questions": [
+        { // Question 1 - Multiple Choice, Single True Answer
+            "q": "Direction of Velocity of a point on the link is",
+            "a": [
+                {"option": "Perpendicular to the link",      "correct": true},
+                {"option": "Parallel to the link",     "correct": false},
+                {"option": "at 45<sup>o</sup> to the link",      "correct": false},
+                {"option": "Can be at any angle to the link",     "correct": false} // no comma here
+            ],
+            "correct": "<p><span>Right answer</span></p>",
+            "incorrect": "<p><span>wrong</span> <br>Correct Ans is : Perpendicular to the link</p>" // no comma here
+        },
+        { // Question 2 - Multiple Choice, Multiple True Answers, Select Any
+            "q": "For a link with constant angular velocity which is constant?",
+            "a": [
+                {"option": "Magnitude of linear velocity of a point on link",               "correct": true},
+                {"option": "Direction of linear velocity of a point on link",   "correct": false},
+                {"option": "Magnitude and Direction of linear velocity of a point on link",      "correct": false},
+                {"option": "Neither Magnitude nor Direction of linear velocity of a point on link",     "correct": false} // no comma here
+            ],
+            "select_any": true,
+            "correct": "<p><span>Right answer</span></p>",
+            "incorrect": "<p><span>wrong</span><br>Correct answer is : Magnitude of linear velocity of a point on link</p>" // no comma here
+        },
+       { // Question 3 - Multiple Choice, Multiple True Answers, Select All
+            "q": "For a 20cm link rotating about one end with an angular velocity of 2 rad/s what will be the linear velocity of the other end ?",
+            "a": [
+                {"option": "80cm/s",           "correct": false},
+                {"option": "800cm/s",                  "correct": false},
+                {"option": "400cm/s",  "correct": false},
+                {"option": "40cm/s",          "correct": true} // no comma here
+            ],
+             "correct": "<p><span>Right answer</span></p>",
+            "incorrect": "<p><span>Wrong</span><br>Correct Answer is : 40cm/s</p>" // no comma here
+        },
+        { // Question 4
+            "q": "Angular velocity of a fixed link is ",
+            "a": [
+                {"option": "zero",    "correct": true},
+                {"option": "same as input link",     "correct": false},
+                {"option": "same as coupler link",      "correct": false},
+              {"option": "None of these",   "correct": false} // no comma here
+            ],
+            "correct": "<p><span>Right answer</span></p>",
+            "incorrect": "<p><span>wrong</span> <br>Correct Answer is : zero </p>"  // no comma here
+        },
+        { // Question 5 
+            "q": "Angular Acceleration of input link rotating with constant angular velocity is",
+            "a": [
+                {"option": "Zero",    "correct": true},
+                {"option": "Positive",     "correct": false},
+		 {"option": "Negative",  "correct": false},
+                {"option": "Can't be Determined",  "correct": false} 
+
+
+// no comma here
+            ],
+            "correct": "<p><span>Right answer</span></p>",
+            "incorrect": "<p><span>wrong</span><br>Correct Answer is : Zero</p>"  // no comma here
+        }  // no comma here
+    ]
+};

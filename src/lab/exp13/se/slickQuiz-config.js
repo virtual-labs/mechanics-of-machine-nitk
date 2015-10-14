@@ -1,0 +1,76 @@
+// Setup your quiz text and questions here
+
+// NOTE: pay attention to commas, IE struggles with those bad boys
+
+var quizJSON = {
+    "info": {
+        "name":    "Self Evaluation",
+        "main":    "<p></p>",
+        "results": "<p style='font-size:20px'><a href='index.html'><u>Click here</u></a> to go to simulation</p>",
+        "level1":  "Good! You can move on to the simulator right away",
+        "level2":  "Make sure to get that one right the next time",
+        "level3":  "You did well, but there is still scope of improvement. We suggest another reading of basics before going to simulator",
+        "level4":  "May be it is better you improve your understanding a little more before moving on to the simulator",
+        "level5":  "We think you should go through the theory once more before using the simulator" // no comma here
+    },
+    "questions": [
+       { // Question 1 - Multiple Choice, Single True Answer
+            "q": "How many prismatic joints does a scotch yoke mechanism have?",
+            "a": [
+                {"option": "2",      "correct": true},
+                {"option": "1",     "correct": false},
+                {"option": "3",      "correct": false},
+                {"option": "None of these",     "correct": false} // no comma here
+            ],
+            "correct": "<p><span>Right answer</span></p>",
+            "incorrect": "<p><span>wrong</span><br>Correct Answer is : 2</p>" // no comma here
+        },
+        { // Question 2 - Multiple Choice, Multiple True Answers, Select Any
+            "q": "How many revolute joints does a scotch yoke mechanism have?",
+            "a": [
+                {"option": "2",      "correct": true},
+                {"option": "1",     "correct": false},
+                {"option": "3",      "correct": false},
+                {"option": "None of these",     "correct": false} // no comma here
+            ],
+            "select_any": true,
+            "correct": "<p><span>Right answer</span></p>",
+            "incorrect": "<p><span>wrong</span><br>Correct Answer is : 2</p>" // no comma here
+        },
+       { // Question 3 - Multiple Choice, Multiple True Answers, Select All
+            "q": "Scotch Yoke Mechanism is an inversion of ?",
+            "a": [
+                {"option": "Double Slider Crank Linkage ",           "correct": true},
+                {"option": "Slider Crank Linkage",                  "correct": false},
+                {"option": "Four Bar Linkage",  "correct": false},
+                {"option": "None of these",          "correct": false} // no comma here
+            ],
+             "correct": "<p><span>Right answer</span></p>",
+            "incorrect": "<p><span>wrong</span><br>Correct Answer is : Double Slider Crank Linkage </p>" // no comma here
+        },
+        { // Question 4 - Multiple Choice, Multiple True Answers, Select All
+            "q": "Acceleration of an object whose displacement is varying with time can be found by?",
+            "a": [
+                {"option": "Differentiating the displacement function with respect to time once",           "correct": false},
+                {"option": "Integrating the displacement function with respect to time once",                  "correct": false},
+                {"option": "Differentiating the displacement function with respect to time twice",  "correct": true},
+                {"option": "Integrating the displacement function with respect to time twice",          "correct": false} // no comma here
+            ],
+             "correct": "<p><span>Right answer</span></p>",
+            "incorrect": "<p><span>wrong</span><br>Correct Answer is : Differentiating the displacement function with respect to time twice </p>" // no comma here
+        },
+        { // Question 5 
+            "q": "Inversions are formed by",
+            "a": [
+                {"option": "changing link lengths in kinematic linkage to get same motion",    "correct": false},
+                {"option": "fixing different links in the kinematic linkage",     "correct": true},
+                {"option": "changing the kinematic pairs in kinematic linkage e.g. from revolute to prismatic",     "correct": false},
+                {"option": "none of these",     "correct": false}
+
+// no comma here
+            ],
+            "correct": "<p><span>Right answer</span></p>",
+            "incorrect": "<p><span>wrong</span><br>Correct Answer is : fixing different links in the kinematic linkage</p>"  // no comma here
+        }   // no comma here
+    ]
+};

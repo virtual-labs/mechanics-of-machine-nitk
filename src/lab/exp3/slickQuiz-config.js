@@ -6,114 +6,73 @@ var quizJSON = {
     "info": {
         "name":    "Test Your Knowledge",
         "main":    "<p></p>",
-        "results": "<h5>Learn More</h5><p>study and take quiz</p>",
-        "level1":  "Jeopardy Ready",
-        "level2":  "Jeopardy Contender",
-        "level3":  "Jeopardy Amateur",
-        "level4":  "Jeopardy Newb",
-        "level5":  "Stay in school, kid..." // no comma here
+        "results": "<a href='../index.html'>click here</a> to go to list of Experiments",
+        "level1":  "Excellent! You should try another Experiment.",
+        "level2":  "That was nice. May be next time you'll get all of them right! Good Luck!",
+        "level3":  "Give another try at the simulator. You should be able to pick up few more things this time.",
+        "level4":  "Probably you need to build some more understanding about the topic.",
+        "level5":  "May be you should spend some more time with the concepts." // no comma here
     },
     "questions": [
         { // Question 1 - Multiple Choice, Single True Answer
-            "q": "Grashof's condition is the necessary condition for?",
+            "q": "For a 10cm link what is the value of tangential acceleration when it is rotating with a constant angular velocity of 2rad/s ?",
             "a": [
-                {"option": "Continuous motion",      "correct": true},
-                {"option": "Non Continuous motion",     "correct": false},
-                {"option": "Intermittent motion",      "correct": false},
-                {"option": "None of these",     "correct": false} // no comma here
+                {"option": "0cm/s<sup>2</sup>",      "correct": true},
+                {"option": "20cm/s<sup>2</sup>",     "correct": false},
+                {"option": "40cm/s",      "correct": false},
+                {"option": "40cm/s<sup>2</sup>",     "correct": false} // no comma here
             ],
-            "correct": "<p><span>Right answer</span> Ans:Continuous motion</p>",
-            "incorrect": "<p><span>wrong</span> It's wrong,<br>Ans:Continuous motion</p>" // no comma here
+            "correct": "<p><span>Right answer</span> </p>",
+            "incorrect": "<p><span>wrong</span> <br>Correct Answer is : 0cm/s<sup>2</sup></p>" // no comma here
         },
         { // Question 2 - Multiple Choice, Multiple True Answers, Select Any
-            "q": "Which of the following is the inversion of four bar chain?",
+            "q": "For a 10cm link what is the value of centripetal acceleration when it is rotating with a constant angular velocity of 2rad/s?",
             "a": [
-                {"option": "Beam engine",               "correct": true},
-                {"option": "Pendulum pump",   "correct": false},
-                {"option": "Oscillating cylinder",      "correct": false},
-                {"option": "None of these",     "correct": false} // no comma here
+                {"option": "0cm/s<sup>2</sup>",      "correct": false},
+                {"option": "20cm/s<sup>2</sup>",     "correct": false},
+                {"option": "40cm/s",      "correct": false},
+                {"option": "40cm/s<sup>2</sup>",     "correct": true} // no comma here
             ],
             "select_any": true,
-            "correct": "<p><span>Right answer</span> Ans:Beam engine</p>",
-            "incorrect": "<p><span>wrong</span> It's wrong,<br>Ans:Beam engine</p>" // no comma here
+            "correct": "<p><span>Right answer</span></p>",
+            "incorrect": "<p><span>wrong</span><br>Correct Answer is : 40cm/s<sup>2</sup> </p>" // no comma here
         },
-       { // Question 3 - Multiple Choice, Multiple True Answers, Select All
-            "q": "The links in a four bar mechanism is ?",
+       { // Question 3 - Multiple Choice, Multiple True Answers, Select Any
+            "q": "For a 10cm link what is the magnitude of total acceleration at an instant when it is rotating with an angular velocity of 2rad/s and angular acceleration is 3rad/s<sup>2</sup>?",
             "a": [
-                {"option": "Binary link ",           "correct": true},
-                {"option": "Ternary link",                  "correct": false},
-                {"option": "Flexible link",  "correct": false},
-                {"option": "None of these",          "correct": false} // no comma here
+                {"option": "50cm/s<sup>2</sup>",      "correct": true},
+                {"option": "10cm/s<sup>2</sup>",     "correct": false},
+                {"option": "70cm/s",      "correct": false},
+                {"option": "70cm/s<sup>2</sup>",     "correct": false} // no comma here
             ],
-             "correct": "<p><span>Right answer</span> Ans: Binary link </p>",
-            "incorrect": "<p><span>wrong</span> It's wrong,<br>Ans:Binary link </p>" // no comma here
+            "select_any": true,
+            "correct": "<p><span>Right answer</span></p>",
+            "incorrect": "<p><span>wrong</span><br>Correct Answer is : 50cm/s<sup>2</sup> </p>" // no comma here
         },
         { // Question 4
-            "q": " Coupled wheel of locomotive is an inversion of ",
+            "q": " When non-zero, Centripetal and Tangential acceleration are  ",
             "a": [
-                {"option": " Four bar mechanism ",    "correct": true},
-                {"option": " Double slider crank mechanism",     "correct": false},
-                {"option": "Slider crank mechanism",      "correct": false},
-              {"option": "Six bar mechanism",   "correct": false} // no comma here
+                {"option": "Perpendicular to each other",    "correct": true},
+                {"option": "Parallel to each other",     "correct": false},
+                {"option": "Inclined to each other at an angle between 0<sup>o</sup> and 90<sup>o</sup>",      "correct": false},
+              {"option": "Inclined to each other at an angle more than 90<sup>o</sup>",   "correct": false} // no comma here
             ],
-            "correct": "<p><span>Right answer</span> Ans:  Four bar mechanism </p>",
-            "incorrect": "<p><span>wrong</span> It's wrong,<br>Ans:  Four bar mechanism </p>"  // no comma here
+            "correct": "<p><span>Right answer</span></p>",
+            "incorrect": "<p><span>wrong</span><br>Correct Answer is : Perpendicular to each other</p>"  // no comma here
         },
         { // Question 5 
-            "q": " Watts indicator is an inversion of ",
+            "q": " Angle made by the total acceleration of a point on the link with the link when the magnitude of angular acceleration is square of magnitude of centripetal acceleration ",
             "a": [
-                {"option": "Four bar mechanism ",    "correct": true},
-                {"option": " Double slider crank mechanism",     "correct": false},
-		 {"option": "Slider crank mechanism",  "correct": false},
-                {"option": " Six bar mechanism",  "correct": false} 
+                {"option": "45<sup>o</sup> ",    "correct": true},
+                {"option": "90<sup>o</sup>",     "correct": false},
+		 {"option": "0<sup>o</sup>",  "correct": false},
+                {"option": "Can't be determined",  "correct": false} 
 
 
 // no comma here
             ],
-            "correct": "<p><span>Right answer</span> Ans: Four bar mechanism </p>",
-            "incorrect": "<p><span>wrong</span> It's wrong,Ans: Four bar mechanism </p>"  // no comma here
-        },
- { // Question 5
-            "q": "The part of IC engine which acts as coupler is……",
-            "a": [
-                {"option": "Connecting rod ",    "correct": true},
-                {"option": " Piston ",     "correct": false},
-		 {"option": " Piston ring ",  "correct": false},
-                {"option": " Fly wheel",  "correct": false} 
-
-
-// no comma here
-            ],
-            "correct": "<p><span>Right answer</span> Ans:Connecting rod</p>",
-            "incorrect": "<p><span>wrong</span> It's wrong,<br>Ans:Connecting rod</p>"  // no comma here
-        },
-  { // Question 5
-            "q": " Beam engine is……",
-            "a": [
-                {"option": "Crank and lever mechanism",    "correct": true},
-                {"option": " Crank and crank mechanism",     "correct": false},
-		 {"option": " Double crank mechanism",  "correct": false},
-                {"option": "None of these",  "correct": false} 
-
-
-// no comma here
-            ],
-            "correct": "<p><span>Right answer</span> Ans:Crank and lever mechanism</p>",
-            "incorrect": "<p><span>wrong</span> It's wrong,Ans:Crank and lever mechanism</p>"  // no comma here
-        },
- { // Question 5
-            "q": " In the beam engine which link connects piston rod coupler and frame?",
-            "a": [
-                {"option": " Lever ",    "correct": true},
-                {"option": " Crank",     "correct": false},
-		 {"option": " Coupler",  "correct": false},
-                {"option": " None of these",  "correct": false} 
-
-
-// no comma here
-            ],
-            "correct": "<p><span>Right answer</span> Ans: Lever</p>",
-            "incorrect": "<p><span>wrong</span> It's wrong,<br>Ans:Lever</p>"  // no comma here
-        }   // no comma here
+            "correct": "<p><span>Right answer</span></p>",
+            "incorrect": "<p><span>wrong</span><br>45<sup>o</sup></p>"  // no comma here
+        }  // no comma here
     ]
 };

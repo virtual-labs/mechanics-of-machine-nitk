@@ -8,13 +8,6 @@ edit -->
 <html>
 <head>
     <title></title>
-<style type="text/css">
-#wrap {
-    width:85%;
-}
-
-
-</style>
 
 </head>
 
@@ -87,19 +80,13 @@ edit -->
 
  
 Velocity analysis of four bar mechanism<br>
-Let <img src="../images/exp3/aIHTo2Yn.png" style="width:27px;height:30px ; position: relative; bottom: -10px; " > , <img src="../images/exp3/FJESEGeK.png" style="width:27px;height:30px ; position: relative; bottom: -10px; " >  and <img src="../images/exp3/ab53vusY.png" style="width:27px;height:30px ; position: relative; bottom: -10px; " >
-be the angular velocities of the links 2,3 and 4 respectively.<br>
-<img src="../images/exp3/aIHTo2Yn.png" style="width:27px;height:30px ; position: relative; bottom: -10px; " > is the input angular velocity of the link 2. Since the link lengths a, b and c are known and for the given<br>
-<img src="../images/exp3/nW11hRdS.png" style="width:27px;height:30px ; position: relative; bottom: -10px; " > value,
-<img src="../images/exp3/YEQXbFAA.png" style="width:27px;height:30px ; position: relative; bottom: -10px; " > and <img src="../images/exp3/Jg8DHTUJ.png" style="width:27px;height:30px ; position: relative; bottom: -15px; " > can be determined using position analysis. The<br>
-angular velocities <img src="../images/exp3/FJESEGeK.png" style="width:27px;height:30px ; position: relative; bottom: -10px; " > and <img src="../images/exp3/ab53vusY.png" style="width:27px;height:30px ; position: relative; bottom: -10px; " >
-are given b<br>
-&nbsp; &nbsp; &nbsp;
-<img src="../images/exp2/eqn1.jpg" style="width:200px;height:71px ; position: relative; bottom: -15px; " >&nbsp; &nbsp; &nbsp;&nbsp; Eq.1<br><br>
- 
-&nbsp; &nbsp; &nbsp;
-<img src="../images/exp2/eqn2.jpg" style="width:200px;height:71px ; position: relative; bottom: -15px; " >&nbsp; &nbsp; &nbsp; &nbsp;Eq.2<br><br>
+Let &omega;<sub>2</sub>, &omega;<sub>3</sub> and &omega;<sub>4</sub> be the angular velocities of the links 2,3 and 4 respectively.<br>
+&omega;<sub>2</sub> is the input angular velocity of the link 2. Since the link lengths a, b and c are known and for the given<br>
+&theta;<sub>2</sub> value, &theta;<sub>3</sub> and &theta;<sub>4</sub> can be determined using position analysis. The<br>
+angular velocities &omega;<sub>3</sub> and &omega;<sub>4</sub> are given by<br>
 
+<img src="../images/exp2/eqn1.jpg" style="width:200px;height:71px ; position: relative; bottom: -15px; " >&nbsp; &nbsp; &nbsp;&nbsp; Eq.1<br><br>
+<img src="../images/exp2/eqn2.jpg" style="width:200px;height:71px ; position: relative; bottom: -15px; " >&nbsp; &nbsp; &nbsp; &nbsp;Eq.2<br><br>
 
 </p>
 
@@ -126,13 +113,9 @@ are given b<br>
                             <p class="MsoNormal" style="line-height: 150%;">
                             <span lang="EN-IN" style=
                             'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
-                            &nbsp;<b></b></span></p>
+                           <ul><li>Edit the parameters in variable section and observe the changes taking place in the velocity diagram of the four bar mechanism</li><li>Table will show the value of the parameters</li><li>Notice that the velocity of a point on a rotating link is perpendicular to the link</li></ul></span></p>
 
-                            <p class="MsoNormal" style=
-                            "font-weight: bold; line-height: 150%"><span lang=
-                            "EN-IN" style=
-                            'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
-                            &nbsp;</span></p>
+                 
 
                         </div>
 
@@ -157,13 +140,22 @@ are given b<br>
                     <div class="content" id="experiment-article-section-3-content">
                         <div class="divQuiz">
                             <div id="displayQuiz">
-                                <form id="form11" method="post" name="form11">
-                                  
-                             
-                                </form><br>
+                                 <form id="form11" method="post" name="form11">
+                                  <p> Check your understanding after you have gone through the basic theory and the procedure to use the simulator.</p>                             
+ <a style="margin-top: 40px;float: left;
+width: auto;
+padding: 5px 15px;
+color: #FFF;
+background-color: #008B8B;
+border: 1px solid #FFF;
+border-radius: 5px;
+text-decoration: none;" href="index2.html">Get Started</a> 
+                                </form>
                             </div><br>
                         </div>
                     </div>
+                </section>
+
                 </section>
 
 
@@ -171,28 +163,30 @@ are given b<br>
                 <section id="experiment-article-section-4">
                     <div class="icon" id="experiment-article-section-4-icon">
                     <!-- Enclose the icon image of your lab.-->
-                    <img src="../images/simulation.jpg" style="padding-left: 20px;"></div>
+                    <img src="../images/simulation.jpg" style="padding-left: 25px;"></div>
 
                     <div class="heading" id=
                     "experiment-article-section-4-heading">
-                        Simulator
+                        Simulation
                     </div>
 
-                    <div class="content" id=
-                    "experiment-article-section-4-content">
-                        <div class="divContent">
-                        
- <div class="jwts_title"><div class="jwts_title_left"><a href="javascript:void(null);" title="Click to open!" class="jwts_title_text">expN</a></div></div><div class="jwts_slidewrapper"><div> EXPLAIN for talking tutorial<br><object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0" height="600" width="800"><param name="quality" value="high" /><param name="movie" value="../images/swf/FourBarGrashofVelocity.swf" /><embed height="600" pluginspage="http://www.macromedia.com/go/getflashplayer" quality="high" src="../images/swf/FourBarGrashofVelocity.swf" type="application/x-shockwave-flash" width="800"></embed></object> </div></div> <div class="jwts_title"><div class="jwts_title_left"><a href="javascript:void(null);" title="Click to open!" class="jwts_title_text">expR</a></div></div><div class="jwts_slidewrapper"><div> EXPLORE User to explore all possibilities<br> <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0" height="600" width="800"><param name="quality" value="high" /><param name="movie" value="../images/swf/FourBarGrashof_Vel_Expl.swf" /><embed height="600" pluginspage="http://www.macromedia.com/go/getflashplayer" quality="high" src="../images/swf/FourBarGrashof_Vel_Expl.swf" type="application/x-shockwave-flash" width="800"></embed></object></div></div> <div class="jwts_title"><div class="jwts_title_left"><a href="javascript:void(null);" title="Click to open!" class="jwts_title_text">expT</a></div></div><div class="jwts_slidewrapper"><div> EXPERIMENT User to conduct an experiment <br><object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0" height="600" width="800"><param name="quality" value="high" /><param name="movie" value="../images/swf/FourBarGrashof_Vel_Expt.swf" /><embed height="600" pluginspage="http://www.macromedia.com/go/getflashplayer" quality="high" src="../images/swf/FourBarGrashof_Vel_Expt.swf" type="application/x-shockwave-flash" width="800"></embed></object></div></div> </div></p>
+ <!--                 
+    <div class="jwts_title"><div class="jwts_title_left"><a href="javascript:void(null);" title="Click to open!" class="jwts_title_text">expN</a></div></div><div class="jwts_slidewrapper"><div> EXPLAIN for talking tutorial<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0" height="600" width="800"><param name="quality" value="high" /><param name="movie" value="../images/swf/FourBarGrashofVelocity.swf" /><embed height="600" pluginspage="http://www.macromedia.com/go/getflashplayer" quality="high" src="../images/swf/FourBarGrashofVelocity.swf" type="application/x-shockwave-flash" width="800"></embed></object> </div></div> <div class="jwts_title"><div class="jwts_title_left"><a href="javascript:void(null);" title="Click to open!" class="jwts_title_text">expR</a></div></div><div class="jwts_slidewrapper"><div> EXPLORE User to explore all possibilities <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0" height="600" width="800"><param name="quality" value="high" /><param name="movie" value="../images/swf/FourBarGrashof_Vel_Expl.swf" /><embed height="600" pluginspage="http://www.macromedia.com/go/getflashplayer" quality="high" src="../images/swf/FourBarGrashof_Vel_Expl.swf" type="application/x-shockwave-flash" width="800"></embed></object></div></div> <div class="jwts_title"><div class="jwts_title_left"><a href="javascript:void(null);" title="Click to open!" class="jwts_title_text">expT</a></div></div><div class="jwts_slidewrapper"><div> EXPERIMENT User to conduct an experiment <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0" height="600" width="800"><param name="quality" value="high" /><param name="movie" value="../images/swf/FourBarGrashof_Vel_Expt.swf" /><embed height="600" pluginspage="http://www.macromedia.com/go/getflashplayer" quality="high" src="../images/swf/FourBarGrashof_Vel_Expt.swf" type="application/x-shockwave-flash" width="800"></embed></object></div></div></p>-->
+<p>
+	
 
+<div class="jwts_title"><div class="jwts_title_left"><a href="#" onclick="toggle_visibility('foo4');" class="jwts_title_text">expN</a></div></div>
+<div id="foo4" style='display:none;margin-left:30px;'><div> EXPLAIN for talking tutorial<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0" height="600" width="800"><param name="quality" value="high" /><param name="movie" value="../images/swf/FourBarGrashofVelocity.swf" /><embed height="600" pluginspage="http://www.macromedia.com/go/getflashplayer" quality="high" src="../images/swf/FourBarGrashofVelocity.swf" type="application/x-shockwave-flash" width="800"></embed></object> </div></div>
 
+<div class="jwts_title"><div class="jwts_title_left"><a href="#" onclick="toggle_visibility('foo5');" class="jwts_title_text">expR</a></div></div><div id="foo5" style='display:none;margin-left:30px;'> EXPLORE User to explore all possibilities <br><object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0" height="600" width="800"><param name="quality" value="high" /><param name="movie" value="../images/swf/FourBarGrashof_Vel_Expl.swf" /><embed height="600" pluginspage="http://www.macromedia.com/go/getflashplayer" quality="high" src="../images/swf/FourBarGrashof_Vel_Expl.swf" type="application/x-shockwave-flash" width="800"></embed></object></div>
 
-  
-                        </div>
+<div class="jwts_title"><div class="jwts_title_left"><a href="#" onclick="toggle_visibility('foo7');" class="jwts_title_text">expR (for Non-Flash Users)</a></div></div>
+<div id="foo7" style='display:none;margin-left:30px; width:800px; height:630px'>EXPLORE : User to explore all possibilities<br>
+<iframe width="800px" height="600px" src="../images/MOM/FourBarVelver2.html"></iframe>
+</div>
 
-                   
-
-			
-
+<div class="jwts_title"><div class="jwts_title_left"><a href="#" onclick="toggle_visibility('foo6');" class="jwts_title_text">expT</a></div></div>
+<div id="foo6" style='display:none;margin-left:30px;'> EXPERIMENT User to conduct an experiment <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0" height="600" width="800"><param name="quality" value="high" /><param name="movie" value="../images/swf/FourBarGrashof_Vel_Expt.swf" /><embed height="600" pluginspage="http://www.macromedia.com/go/getflashplayer" quality="high" src="../images/swf/FourBarGrashof_Vel_Expt.swf" type="application/x-shockwave-flash" width="800"></embed></object></div>
 
                 </section>
 
@@ -209,75 +203,26 @@ are given b<br>
 
                     <div class="content" id="experiment-article-section-5-content">
                         <div class="divContent">
-                            
+                        <ol><li>What is the velocity of input and output links when the links are parallel. Also comment on the velocity of the coupler link.</li></ol>
                         </div>
                     </div>
                 </section>
 				
-				<!-- Second section of the article-->
-
-      <section id="experiment-article-section-6">
-                    <div class="icon" id="experiment-article-section-6-icon">
-                    
-                    <img src="../images/reference.jpg" style="padding-left: 15px;"></div>
-
-                    <div class="heading" id=
-                    "experiment-article-section-6-heading">
-                        Reference
-                    </div>
-
-                    <div class="content" id="experiment-article-section-6-content">
-                        <div class="divContent">
-                         
-                            
-                        </div>
-                    </div>
-                </section>
-
-
-
-                <section id="experiment-article-section-7">
-                    <div class="icon" id="experiment-article-section-7-icon">
-                    <!-- Enclose the icon image of your lab. -->
-                    <img src="../images/video.jpg"></div>
-                    <!-- The heading for the section can be enclosed in a 
-        div tag. -->
-
-                    <div class="heading" id=
-                    "experiment-article-section-7-heading">
-                        Video
-                    </div>
-
-                    <div class="content" id=
-                    "experiment-article-section-7-content">
-                        <div class="divQuiz">
-                            <div id="displayQuiz">
-                                <form id="form11" method="post" name="form11">
-                      
-                                </form><br>
-                            </div><br>
-                        </div>
-                    </div>
-                </section>
-
-              
-
-
-               
-		
-
-                <section id="experiment-article-section-8">
+				<section id="experiment-article-section-8">
                     <div class="icon" id="experiment-article-section-8-icon">
-                    
+                    <!-- Enclose the icon image of your lab.-->
                     <img src="../images/quiz.jpg"></div>
-
-                    <div class="heading" id="experiment-article-section-8-heading">
+     <div class="heading" id=
+                    "experiment-article-section-8-heading">
                         Quiz
                     </div>
 
-                    <div class="content" id="experiment-article-section-8-content">
-                        <div class="divContent">
-                                                       
+                    <div class="content" id=
+                    "experiment-article-section-8-content">
+                        <div class="divQuiz">
+                            <div id="displayQuiz">
+                                <form id="form11" method="post" name="form11">
+                                    <p> Check your ability to answer some of the questions relevant to the simulation that you used.</p> 
  <a style="margin-top: 40px;float: left;
 width: auto;
 padding: 5px 15px;
@@ -285,11 +230,69 @@ color: #FFF;
 background-color: #008B8B;
 border: 1px solid #FFF;
 border-radius: 5px;
-text-decoration: none;" href="index1.html">Get Started</a>   
+text-decoration: none;" href="index1.html">Get Started</a>
+
+
+                                   
+                                </form><br>
+                            </div><br>
+                        </div>
+                    </div>
+                </section> 
+
+                <section id="experiment-article-section-7">
+                    <div class="icon" id="experiment-article-section-7-icon">
+                    
+                    <img src="../images/video.jpg" style="padding-left:7px"></div>
+
+                    <div class="heading" id=
+                    "experiment-article-section-7-heading">
+                        Videos
+                    </div>
+
+                    <div class="content" id="experiment-article-section-7-content">
+                        <div class="divContent">
+                         NPTEL:<br>
+                             <a href="https://www.youtube.com/watch?v=MJeRFzs4oRU&list=PLBEA57F7E7560C8E8">Kinematics of Machines</a><br>
                         </div>
                     </div>
                 </section>
 
+           <section id="experiment-article-section-6">
+                    <div class="icon" id="experiment-article-section-6-icon">
+                   
+                    <img src="../images/reference.jpg" style="padding-left: 25px;"></div>
+
+                    <div class="heading" id=
+                    "experiment-article-section-6-heading">
+                        References
+                    </div>
+
+                    <div class="content" id="experiment-article-section-6-content">
+                        <div class="divContent">
+                            <ul><li>
+                            <p style="font-family:courier new,courier,monospace; font-size:18px;"> Robert L Norton (2011), Design of Machinery (5th Ed.), McGraw Hill Publication </p></li>
+                            <li><p style="font-family:courier new,courier,monospace; font-size:18px;">Uicker J.J., Pennock G.R. and Shigley J.E. (2009), Theory of Machines and Mechanisms (3rd Ed.), Oxford University Press </p></li>
+                            <li><p style="font-family:courier new,courier,monospace; font-size:18px;"> S S Rattan (2014), Theory of Machines (4th Ed.), McGraw Hill Education (India) Private Limited</p></li>
+                        </ul></div>
+                    </div>
+                </section>
+<!--                 <section id="experiment-article-section-9">
+                    <div class="icon" id="experiment-article-section-9-icon">
+                    <!-- Enclose the icon image of your lab.-->
+    <!--                <img src="../images/nptel_library_icon.png"></div>
+
+                    <div class="heading" id=
+                    "experiment-article-section-9-heading">
+                        NPTEL  
+                    </div>
+
+                    <div class="content" id=
+                    "experiment-article-section-9-content">
+                        <div class="divContent">
+                        </div>
+                    </div>
+                </section> -->
           
 
               

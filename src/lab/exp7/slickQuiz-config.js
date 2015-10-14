@@ -6,114 +6,72 @@ var quizJSON = {
     "info": {
         "name":    "Test Your Knowledge",
         "main":    "<p></p>",
-        "results": "<h5>Learn More</h5><p>study and take quiz</p>",
-        "level1":  "Jeopardy Ready",
-        "level2":  "Jeopardy Contender",
-        "level3":  "Jeopardy Amateur",
-        "level4":  "Jeopardy Newb",
-        "level5":  "Stay in school, kid..." // no comma here
+        "results": "<a href='../index.html'>click here</a> to go to list of Experiments",
+        "level1":  "Excellent! You should try another Experiment.",
+        "level2":  "That was nice. May be next time you'll get all of them right! Good Luck!",
+        "level3":  "Give another try at the simulator. You should be able to pick up few more things this time.",
+        "level4":  "Probably you need to build some more understanding about the topic.",
+        "level5":  "May be you should spend some more time with the concepts." // no comma here
     },
     "questions": [
-        { // Question 1 - Multiple Choice, Single True Answer
-            "q": " In which pair of mechanisms is the link attached to the crank fixed to the frame?",
+       { // Question 1 - Multiple Choice, Single True Answer
+            "q": "Measured from +X-axis what is the angular position of connecting rod when at a crank position of 30<sup>o</sup> the crank shaft is perpendicular to connecting rod ?",
             "a": [
-                {"option": "Reciprocating engine &Hand-pump",      "correct": false},
-                {"option": " Oscillating cylinder engine &Rotary(Rotating Cylinder) engine",     "correct": true},
-                {"option": "Rotary(Rotating Cylinder) engine & Hand-pump",      "correct": false},
-                {"option": " Quick return mechanism & Hand-pump",     "correct": false} // no comma here
+                {"option": "120<sup>o</sup>",      "correct": true},
+                {"option": "60<sup>o</sup>",     "correct": false},
+                {"option": "160<sup>o</sup>",      "correct": false},
+                {"option": "150<sup>o</sup>",     "correct": false} // no comma here
             ],
-            "correct": "<p><span>Right answer</span> Ans:Oscillating cylinder engine &Rotary(Rotating Cylinder) engine</p>",
-            "incorrect": "<p><span>wrong</span> It's wrong,<br>Ans:Oscillating cylinder engine &Rotary(Rotating Cylinder) engine</p>" // no comma here
+            "correct": "<p><span>Right answer</span></p>",
+            "incorrect": "<p><span>wrong</span><br>Correct Answer is : 120<sup>o</sup></p>" // no comma here
         },
         { // Question 2 - Multiple Choice, Multiple True Answers, Select Any
-            "q": "In which of the following inversions is the crank is directly attached to the slider?",
+            "q": "What is the max distance travelled by slider for a slider crank mechanism with crank length 10cm?",
             "a": [
-                {"option": "a) Reciprocating Engine",               "correct": false},
-                {"option": "b) Oscillating Cylinder Engine",   "correct": false},
-                {"option": "c) Rotary(Rotating Cylinder) Engine",               "correct": true},
-                {"option": "d) Hand-Pump", "correct": false} // no comma here
+                {"option": "20cm",               "correct": true},
+                {"option": "10cm",   "correct": false},
+                {"option": "5cm",      "correct": false},
+                {"option": "None of these",     "correct": false} // no comma here
             ],
             "select_any": true,
-            "correct": "<p><span>Right answer</span> Ans:Rotary(Rotating Cylinder) Engine</p>",
-            "incorrect": "<p><span>wrong</span> It's wrong,<br>Ans: Rotary(Rotating Cylinder) Engine</p>" // no comma here
+            "correct": "<p><span>Right answer</span></p>",
+            "incorrect": "<p><span>wrong</span><br>Correct Answer is : 20cm</p>" // no comma here
         },
-        { // Question 3 - Multiple Choice, Multiple True Answers, Select All
-            "q": " In a reciprocating engine, which of the following links is fixed?",
+       { // Question 3 - Multiple Choice, Multiple True Answers, Select All
+            "q": "What is the angle swept by connecting rod for l/r ratio 2?",
             "a": [
-                {"option": " Slider",           "correct": false},
-                {"option": " Slider guide way",                  "correct": true},
-                {"option": " Crank",  "correct": false},
-                {"option": " Coupler",          "correct": false} // no comma here
+                {"option": "60<sup>o</sup>",           "correct": true},
+                {"option": "30<sup>o</sup>",           "correct": false},
+                {"option": "90<sup>o</sup>",  "correct": false},
+                {"option": "Data insufficient",          "correct": false} // no comma here
             ],
-             "correct": "<p><span>Right answer</span> Ans: Slider guide way</p>",
-            "incorrect": "<p><span>wrong</span> It's wrong,<br>Ans: Slider guide way</p>" // no comma here
+             "correct": "<p><span>Right answer</span></p>",
+            "incorrect": "<p><span>wrong</span><br>Correct Answer is : 60<sup>o</sup> </p>" // no comma here
         },
         { // Question 4
-            "q": " The picture shown here depicts a (an)<br><img src=\"../images/accesr9.png\"\/>",
+            "q": "For a 5cm crank shaft rotating a 3rpm what is the average speed in cm/s of the slider?",
             "a": [
-                {"option": " V-Engine",    "correct": false},
-                {"option": " Rotary Engine",     "correct": false},
-                {"option": " Oscillating Cylinder Engine",      "correct": true},
-              {"option": " Reciprocating Engine",   "correct": false} // no comma here
+                {"option": "1",    "correct": true},
+                {"option": "2",     "correct": false},
+                {"option": "3",      "correct": false},
+              {"option": "4",   "correct": false} // no comma here
             ],
-            "correct": "<p><span>Right answer</span> Ans: Oscillating Cylinder Engine</p>",
-            "incorrect": "<p><span>wrong</span> It's wrong,Ans: Oscillating Cylinder Engine</p>"  // no comma here
+            "correct": "<p><span>Right answer</span></p>",
+            "incorrect": "<p><span>wrong</span><br>Correct Answer is : 1 </p>"  // no comma here
         },
         { // Question 5 
-            "q": " The quick return mechanism is so named because",
+            "q": "At which of the following crank angle position pairs is the slider at the same location",
             "a": [
-                {"option": " It is fast at returning once launched",    "correct": false},
-                {"option": "It brings back quick results",     "correct": false},
-		 {"option": " Its returning motion is quicker than its advancing motion",  "correct": true},
-                {"option": " It gives immediate feedback",  "correct": false} 
+                {"option": "All of these",    "correct": true},
+                {"option": "30<sup>o</sup>,330<sup>o</sup>",     "correct": false},
+		 {"option": "90<sup>o</sup>,270<sup>o</sup>",  "correct": false},
+                {"option": "120<sup>o</sup>,240<sup>o</sup>",  "correct": false} 
 
 
 // no comma here
             ],
-            "correct": "<p><span>Right answer</span> Ans: Its returning motion is quicker than its advancing motion</p>",
-            "incorrect": "<p><span>wrong</span> It's wrong,Ans: Its returning motion is quicker than its advancing motion</p>"  // no comma here
-        },
- { // Question 5
-            "q": " Quick return mechanism is an inversion of",
-            "a": [
-                {"option": " Four bar chain",    "correct": false},
-                {"option": " Single slider crank chain",     "correct": true},
-		 {"option": " Double slider crank chain",  "correct": false},
-                {"option": "Crossed slider  crank chain",  "correct": false} 
-
-
-// no comma here
-            ],
-            "correct": "<p><span>Right answer</span> Ans:Single slider crank chain</p>",
-            "incorrect": "<p><span>wrong</span> It's wrong,<br>Ans:Single slider crank chain</p>"  // no comma here
-        },
- { // Question 5
-            "q": " All of the following are inversion of the slider crank chain, except",
-            "a": [
-                {"option": " Whitworth’s quick return motion.",    "correct": false},
-                {"option": " Pendulum pump.",     "correct": false},
-		 {"option": " Oldham’s coupling.",  "correct": true},
-                {"option": " Oscillating cylinder engine.",  "correct": false} 
-
-
-// no comma here
-            ],
-            "correct": "<p><span>Right answer</span> Ans: Oldham’s coupling.</p>",
-            "incorrect": "<p><span>wrong</span> It's wrong,Ans:Oldham’s coupling.</p>"  // no comma here
-        },
- { // Question 5
-            "q": " The quick return mechanism is so named because",
-            "a": [
-                {"option": " It is fast at returning once launched",    "correct": false},
-                {"option": " It brings back quick results",     "correct": false},
-		 {"option": " Its returning motion is quicker than its advancing motion",  "correct": true},
-                {"option": " It gives immediate feedback",  "correct": false} 
-
-
-// no comma here
-            ],
-            "correct": "<p><span>Right answer</span> Ans: Its returning motion is quicker than its advancing motion</p>",
-            "incorrect": "<p><span>wrong</span> It's wrong,<br>Ans:Its returning motion is quicker than its advancing motion</p>"  // no comma here
-        }  // no comma here
+            "correct": "<p><span>Right answer</span></p>",
+            "incorrect": "<p><span>wrong</span><br>Correct Answer is : All of these </p>"  // no comma here
+        }   // no comma here
     ]
 };

@@ -1,0 +1,315 @@
+<!-- This file needs to be edited by the lab developer to suit
+the requirements of their lab in particular.-->
+<!-- Add class="default" to include any element as it is
+specified in default.html. 
+Do not include class="default" to th elements that you want to
+edit -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+
+
+	
+<link href="../css/tabs_slides.css" rel="stylesheet">
+	<style type="text/css" media="print">.jwts_tabbernav{display:none;}</style>
+						<script type="text/javascript">var jwts_slideSpeed=30; var jwts_timer=10;</script>
+						
+						<script type="text/javascript" src="../css/js/tabs_slides.js"></script>
+					  <script type="text/javascript" src="../css/js/tabs_slides_def_loader.js"></script>
+</head>
+
+<body>
+  <div id="experiment">
+        <!-- The Experiment Document Container-->
+        <!-- The lab Header contains the logo and the name of the lab,
+  usually displayed on the top of the page-->
+
+        <header class="default" id="experiment-header">
+            <div class="logo" id="experiment-header-logo">
+            <!-- Enclose the logo image of your lab or write it in 
+      text-->
+            <img src="../images/logo.jpg"></div>
+
+            <div class="heading" id="experiment-header-heading">
+                <!-- Write the name of your lab and link it to the home 
+      page of your lab (h1 tag is preferred while writing your 
+      lab name)-->
+                <a href="../index.html">Mechanics of Machines Lab</a>
+            </div><!-- Add any additional element you want to add to the lab 
+    header, For example : Help (Enclosing them with suitable 
+    div is recommended)-->
+        </header><!-- The lab article is the main content area where all the 
+  experiment content sits-->
+
+        <article id="experiment-article">
+            <!-- The lab article has an header, optional navigational 
+    menu, number of sections, an optional sidebar and a closing 
+    footer-->
+
+            <div class="breadcrumb" id="experiment-article-breadcrumb"></div>
+
+            <header class="heading" id="experiment-article-heading">
+               Position analysis of Grashof four bar mechanism
+            </header><!-- Navigation menu is useful to organize the view of 
+      multiple sections inside the article-->
+
+            <nav class="default" id="experiment-article-navigation">
+                <ul id="experiment-article-navigation-menu">
+                    <!-- The menu can be dynamically generated to contain 
+          the headings of your sections or instead write the 
+          menu items of your choice individually enclosedu in 
+          &lt;li&gt; tag as shown below-->
+                </ul>
+            </nav><!-- All the sections of your lab or experiment can be 
+      enclosed together with a div element as shown below-->
+      
+
+            <div id="experiment-article-sections">
+                <!-- First section of the article-->
+<section id="experiment-article-section-1">
+                    <div class="icon" id="experiment-article-section-1-icon">
+                    <!-- Enclose the icon image of your lab. -->
+                    <img src="../images/theory.jpg" style="padding-left:8px"></div>
+
+                    <div class="heading" id="experiment-article-section-1-heading">
+                        Theory
+                    </div>
+                    <div class="content" id="experiment-article-section-1-content">
+<p style="font-size:20px; color:black">Learning objectives</p>
+<p>After completing this simulation experiment one should be able to
+<ul><li>Determine the location CG of any given link in a Grashof four bar
+mechanism</li><li>Determine the output link angle of a Grashof four bar mechanism for any
+given crank angle</li><li>Calculate the transmission angle of a given Grashof four bar mechanism at
+any given crank angle</li><li>Synthesize length of a Grashof four bar mechanism for a given conditions</li>
+</ul></p><br>
+<p style="font-size:20px; color:black">Introduction<p>
+<p>A four bar mechanism consists of four rigid link which are linked in the form of
+quadrilateral by four pin joints. A link that makes complete revolution is called crank, the link
+opposite to the fixed link is the coupler and forth link is a lever or rocker if oscillates or another
+crank if rotates.
+</p>
+      <figure> <img  src="../images/pos1.png"  style="width:584px;height:290px;padding-left: 180px;">
+        <figcaption style="text-align: center; padding-left: 45px;">Figure 1: Four bar mechanism</figcaption> </figure><br>
+<p style="font-size:20px; color:black">Position Analysis of Four Bar Mechanism<br></p>
+       <br>  <figure><img  src="../images/pos3.png" style="width:745px;height:261px;padding-left: 130px;">
+        <figcaption style="text-align: center;">Figure 2: Nomenclature of four bar mechanism.</figcaption></figure>
+<br><p><b>Grashoff &rsquo;s Law </b>: For a planar four bar linkage, the sum of the shortest (s) and longest (l) links cannot be greater
+than the sum of the remaining (p,q) links if there is to be continuous relative rotation between two
+members.</p><br><p><b>Inversions </b>:​ A mechanism has been defined above as a kinematic chain in which one of the links is fixed. From
+the four bar mechanism, different versions of each of them can be obtained by fixing any one of
+the links p, q, l or s. Such different versions, which can be obtained by fixing any of the different
+links, are called its “Inversions”. Many a time, a particular inversion of a mechanism may give
+rise to different mechanisms of practical utility, when the proportions of the link lengths are
+changed.<br>By this principle of inversion of a fourbar chain, several useful mechanisms can be obtained.
+Mainly there are three inversions of four bar mechanisms, which are obtained by fixing different links of
+the kinematic chain as shown in the figure below. They are:</p><ol><li>Double Crank Mechanism</li><li>Crank Rocker Mechanism</li><li>Double Rocker Mechanism</li></ol></br>
+<figure><img  src="../images/pos4.png" style="width:554px;height:203px;padding-left: 210px;">
+        <figcaption style="text-align: center; padding-left: 70px;">Figure 3: Inversions of Four bar mechanism</figcaption></figure><br>
+<p style="font-size:20px; color:black">Determination of Position of any point on FourBar</p>
+<figure><img  src="../images/pos9.png" style="padding-left: 180px;">
+<figcaption style="text-align: center; ">Figure 4: Configuration of four bar mechanism</figcaption></figure>
+​<p>By using relations in geometry and trigonometry the position of any point on the four bar mechanism can be found out for a given value of input angle &theta;<sub>2</sub> when the four link lengths are known </p>
+<p>At a given value of &theta;<sub>2</sub> there can be two possible configurations of the four bar mechanism as shown in above figure. The following vector loop equation can be used to define the four bar mechanism</p>
+$$ ae^{j\theta_2}+be^{j\theta_3}-ce^{j\theta_4}-de^{j\theta_1} = 0$$ <p>Separating the above equation into real and imaginary parts leads to two equations which can be solved to find the value of two unknowns &theta;<sub>3</sub> and &theta;<sub>4</sub> <br></div>
+</section>
+<section id="experiment-article-section-2">
+                    <div class="icon" id="experiment-article-section-2-icon">
+                    <!-- Enclose the icon image of your lab.-->
+                    <img src="../images/procedure.jpg" style="padding-left: 23px;"></div>
+                    <div class="heading" id="experiment-article-section-2-heading">Procedure</div>
+                    <div class="content" id="experiment-article-section-2-content">
+<p style="font-size:20px; color:black">Aim</p>
+<p>To completely determine the position of four bar linkage given and thereby find out &theta;<sub>4</sub> and transmission angle &gamma; (transmission angle).<br><br></p>
+<p style="font-size:20px; color:black">Procedure</p>
+<p style="padding-left:50px;">Read the value of link lengths and the input angle &theta;<sub>2</sub>, then use the formulae given below to calculate the value of unknowns &theta;<sub>3</sub>, &theta;<sub>4</sub> and &gamma;</p>
+
+$$K_1=\frac d a \qquad K_2=\frac d c \qquad K_3=\frac{a^2-b^2+c^2+d^2}{2ac}$$
+$$A=\cos\theta_2-K_1-K_2\cos\theta_2+K_3$$
+$$B=-2\sin\theta_2$$
+$$C=K_1-(K_2+1)\cos\theta_2+K_3$$
+$$\theta_{4_{1.2}}=2\tan^{-1}\left(\frac{-B\pm\sqrt{B^2-4AC}}{2A}\right)$$
+$$K_4=\frac db \qquad K_5=\frac{c^2-d^2-a^2-b^2}{2ab} $$
+$$D=\cos\theta_2-K_1-K_4\cos\theta_2+K_5$$
+$$E=-2\sin\theta_2$$
+$$F=K_1+(K_4-1)\cos\theta_2+K_5$$
+$$\theta_{3_{1.2}}=2\tan^{-1}\left(\frac{-E\pm\sqrt{E^2-4DF}}{2D}\right)$$
+$$\gamma=\theta_4-\theta_3$$</br>
+
+<p>For special cases of positioning (e.g. when two link are aligned) use simple geometry and trigonometry relations to find out the solution</p>
+</div>
+</section>
+
+<section id="experiment-article-section-3">
+                    <div class="icon" id="experiment-article-section-3-icon">
+                    <!-- Enclose the icon image of your lab. -->
+                    <img src="../images/selfevaluation.jpg" style="padding-left:50px;"></div>
+                    <!-- The heading for the section can be enclosed in a 
+        div tag. -->
+
+                    <div class="heading" id=
+                    "experiment-article-section-3-heading">
+                        Self Evaluation
+                    </div>
+
+                    <div class="content" id=
+                    "experiment-article-section-3-content">
+                        <div class="divQuiz">
+                            <div id="displayQuiz">
+                                <form id="form11" method="post" name="form11">
+                                                                  
+ <a style="margin-top: 40px;float: left;
+width: auto;
+padding: 5px 15px;
+color: #FFF;
+background-color: #008B8B;
+border: 1px solid #FFF;
+border-radius: 5px;
+text-decoration: none;" href="index1.html">Get Started</a> 
+                                </form>
+                            </div><br>
+                        </div>
+                    </div>
+                </section>
+
+   
+                <section id="experiment-article-section-4">
+                    <div class="icon" id="experiment-article-section-4-icon">
+                    <!-- Enclose the icon image of your lab.-->
+                    <img src="../images/simulation.jpg"  style="padding-left: 25px;"></div>
+
+                    <div class="heading" id= "experiment-article-section-4-heading">
+                        Simulation
+                    </div>
+
+             
+                            
+<!--
+ <div class="jwts_title"><div class="jwts_title_left"><a href="javascript:void(null);" title="Click to open!" class="jwts_title_text">expN</a></div></div><div class="jwts_slidewrapper"><div> EXPLAIN for talking tutorial<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0" height="600" width="800"><param name="quality" value="high" /><param name="movie" value="../images/swf/FourBarGrashofPosition.swf" /><embed height="600" pluginspage="http://www.macromedia.com/go/getflashplayer" quality="high" src="../images/swf/FourBarGrashofPosition.swf" type="application/x-shockwave-flash" width="800"></embed></object></p>
+<p>
+	</div></div> <div class="jwts_title"><div class="jwts_title_left"><a href="javascript:void(null);" title="Click to open!" class="jwts_title_text">expR</a></div></div><div class="jwts_slidewrapper"><div> EXPLORE User to explore all possibilities<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0" height="600" width="800"><param name="quality" value="high" /><param name="movie" value="../images/swf/FourBarGrashof_Pos_Expl.swf" /><embed height="600" pluginspage="http://www.macromedia.com/go/getflashplayer" quality="high" src="../images/swf/FourBarGrashof_Pos_Expl.swf" type="application/x-shockwave-flash" width="800"></embed></object> <param name="quality" value="high" /> <param name="movie" value="../images/swf/FourBarGrashof_Pos_Expl_Step1.swf" /> </div></div> <div class="jwts_title"><div class="jwts_title_left"><a href="javascript:void(null);" title="Click to open!" class="jwts_title_text">expT</a></div></div><div class="jwts_slidewrapper"><div> EXPERIMENT User to conduct an experiment<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0" height="600" width="800"><param name="quality" value="high" /><param name="movie" value="../images/swf/FourBarGrashof_Pos_Expt.swf" /><embed height="600" pluginspage="http://www.macromedia.com/go/getflashplayer" quality="high" src="../images/swf/FourBarGrashof_Pos_Expt.swf" type="application/x-shockwave-flash" width="800"></embed></object> <param name="quality" value="high" /> <param name="movie" value="../images/swf/FourBarGrashof_Pos_Expt_Step5.swf" /> </div></div>
+-->
+
+
+
+
+
+ <div class="jwts_title"><div class="jwts_title_left"><a href="#" onclick="toggle_visibility('foo4');" class="jwts_title_text">expN</a></div></div>
+<div id="foo4" style='display:none;margin-left:30px;'> EXPLAIN for talking tutorial<br><object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0" height="600" width="800"><param name="quality" value="high" /><param name="movie" value="../images/swf/FourBarGrashofPosition.swf" /><embed height="600" pluginspage="http://www.macromedia.com/go/getflashplayer" quality="high" src="../images/swf/FourBarGrashofPosition.swf" type="application/x-shockwave-flash" width="800"></embed></object>
+</div>
+<div class="jwts_title"><div class="jwts_title_left"><a href="#" onclick="toggle_visibility('foo5');" class="jwts_title_text">expR</a></div></div>
+<div id="foo5" style='display:none;margin-left:30px;'>EXPLORE User to explore all possibilities<br><object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0" height="600" width="800"><param name="quality" value="high" /><param name="movie" value="../images/swf/FourBarGrashof_Pos_Expl.swf" /><embed height="600" pluginspage="http://www.macromedia.com/go/getflashplayer" quality="high" src="../images/swf/FourBarGrashof_Pos_Expl.swf" type="application/x-shockwave-flash" width="800"></embed></object> <param name="quality" value="high" /> <param name="movie" value="../images/swf/FourBarGrashof_Pos_Expl_Step1.swf" />
+</div>
+<div class="jwts_title"><div class="jwts_title_left"><a href="#" onclick="toggle_visibility('foo6');" class="jwts_title_text">expT</a></div></div>
+<div id="foo6" style='display:none;margin-left:30px;'>EXPERIMENT User to conduct an experiment<br><object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0" height="600" width="800"><param name="quality" value="high" /><param name="movie" value="../images/swf/FourBarGrashof_Pos_Expt.swf" /><embed height="600" pluginspage="http://www.macromedia.com/go/getflashplayer" quality="high" src="../images/swf/FourBarGrashof_Pos_Expt.swf" type="application/x-shockwave-flash" width="800"></embed></object> <param name="quality" value="high" /> <param name="movie" value="../images/swf/FourBarGrashof_Pos_Expt_Step5.swf" />
+</div>
+                </section>
+              <section id="experiment-article-section-5">
+                    <div class="icon" id="experiment-article-section-5-icon">
+                    <!-- Enclose the icon image of your lab -->
+                    <img src="../images/assignment.jpg" style="padding-left: 27px;"></div>
+                    <!-- The heading for the section can be enclosed in a 
+          div tag. -->
+
+                    <div class="heading" id=
+                    "experiment-article-section-5-heading">
+                        Assignment
+                    </div>
+
+                    <div class="content" id="experiment-article-section-5-content">
+                        
+                    </div>
+                </section>
+				
+				<!-- Second section of the article-->
+
+             <section id="experiment-article-section-8">
+                    <div class="icon" id="experiment-article-section-8-icon">
+                    <!-- Enclose the icon image of your lab.-->
+                    <img src="../images/quiz.jpg"></div>
+     <div class="heading" id=
+                    "experiment-article-section-8-heading">
+                        Quiz
+                    </div>
+
+                    <div class="content" id=
+                    "experiment-article-section-8-content">
+                        <div class="divQuiz">
+                            <div id="displayQuiz">
+                               
+ <a style="margin-top: 40px;float: left;
+width: auto;
+padding: 5px 15px;
+color: #FFF;
+background-color: #008B8B;
+border: 1px solid #FFF;
+border-radius: 5px;
+text-decoration: none;" href="index1.html">Get Started</a>
+
+
+ <form id="form11" method="post" name="form11">
+                                   
+                                </form><br>
+                            </div><br>
+                        </div>
+                    </div>
+                </section> 
+
+                <section id="experiment-article-section-7">
+                    <div class="icon" id="experiment-article-section-7-icon">
+                    
+                    <img src="../images/video.jpg" style="padding-left:7px"></div>
+
+                    <div class="heading" id=
+                    "experiment-article-section-7-heading">
+                        Videos
+                    </div>
+
+                    <div class="content" id="experiment-article-section-7-content">
+                        <div class="divContent">
+                         NPTEL:<br>
+                             <a href="https://www.youtube.com/watch?v=fEdz91oWrts">https://www.youtube.com/watch?v=fEdz91oWrts</a><br>
+                        </div>
+                    </div>
+                </section>
+
+           <section id="experiment-article-section-6">
+                    <div class="icon" id="experiment-article-section-6-icon">
+                   
+                    <img src="../images/reference.jpg" style="padding-left: 25px;"></div>
+
+                    <div class="heading" id=
+                    "experiment-article-section-6-heading">
+                        References
+                    </div>
+
+                    <div class="content" id="experiment-article-section-6-content">
+                        <div class="divContent">
+                            <ul><li>
+                            <p style="font-family:courier new,courier,monospace; font-size:18px;"> Robert L Norton (2011), Design of Machinery (5th Ed.), McGraw Hill Publication </p></li>
+                            <li><p style="font-family:courier new,courier,monospace; font-size:18px;">Uicker J.J., Pennock G.R. and Shigley J.E. (2009), Theory of Machines and Mechanisms (3rd Ed.), Oxford University Press </p></li>
+                            <li><p style="font-family:courier new,courier,monospace; font-size:18px;"> S S Rattan (2014), Theory of Machines (4th Ed.), McGraw Hill Education (India) Private Limited</p></li>
+                        </ul></div>
+                    </div>
+                </section>
+<!--                 <section id="experiment-article-section-9">
+                    <div class="icon" id="experiment-article-section-9-icon">
+                    <!-- Enclose the icon image of your lab.-->
+    <!--                <img src="../images/nptel_library_icon.png"></div>
+
+                    <div class="heading" id=
+                    "experiment-article-section-9-heading">
+                        NPTEL  
+                    </div>
+
+                    <div class="content" id=
+                    "experiment-article-section-9-content">
+                        <div class="divContent">
+                        </div>
+                    </div>
+                </section> -->
+            </div>
+        </article>
+    </div>
+</body>
+</html>

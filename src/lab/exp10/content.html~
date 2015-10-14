@@ -8,13 +8,7 @@ edit -->
 <html>
 <head>
     <title>Position analysis of Slider crank mechanism with Offset </title>
-<style type="text/css">
-#wrap {
-    width:85%;
-}
 
-
-</style>
 </head>
 
 <body>
@@ -79,6 +73,29 @@ edit -->
                     "experiment-article-section-1-content">
                         <div class="divContent" id="wrap">
                             
+<p style="font-size:20px; color:black">Introduction<p>
+<p>The slider-crank mechanism is one of the most useful mechanisms in modern technology since it
+appears in most of the internal combustion engines including automobiles, trucks and small engines.
+The slider-crank kinematic chain consists of four bodies linked with three cylindrical joints and one
+sliding or prismatic joint. It is used to change circular into reciprocating motion, or reciprocating into
+circular motion.<br>
+</p>
+
+<img  src="../images/poscr2.png"  style="width:654px;height:344px"/><br>
+<span>Figure 1: Slider Crank</span>
+    <br><br>
+
+<p style="font-size:20px; color:black">Position Analysis<p>
+
+<img src="../images/poscr3.png" style="width:714px;height:401px"/>
+        <br><span>Figure 2: Slider Crank system with offset</span>
+<br>
+Above figure shows a slider-crank mechanism in which the stroke-line of the slider doesn't pass through the axis of rotation of the crank.
+It is also frequently referred as offset slider crank mechanism. Due to offset one of the strokes (forward/reverse) takes lesser time than the other, such mechanisms are known as quick return mechanisms. Ratio of time taken for forward stroke to that for return stroke is called Quick Return Ratio. This is also equal to the ratio of angle swept by crank in the corresponding strokes. The equations for position are as given below.<br>
+&nbsp; &nbsp; &nbsp; <img src="../images/exp7/eqn1.jpg" style="width:194px;height:71px ; position: relative; bottom: -15px; " ><br><br>
+and<br>
+&nbsp; &nbsp; <img src="../images/exp7/eqn2.jpg" style="width:259px;height:69px ; position: relative; bottom: -15px; " ><br><br>
+Where <img src="../images/exp7/eqn3.jpg" style="width:146px;height:36px ; position: relative; bottom: -15px; " > and <img src="../images/exp7/eqn4.jpg" style="width:263px;height:37px ; position: relative; bottom: -15px; " ><br><br>
 
                             
                         </div>
@@ -99,7 +116,7 @@ edit -->
                     <div class="content" id=
                     "experiment-article-section-2-content">
                         <div class="divContent" id="wrap">
-         
+         <ul><li>Edit parameters in variables section to see the change in position diagram</li><li>By changing offset the quick return ratio of the mechanism can be changed</li><li>Observe the variation in QRR due to change in the offset.</li></ul>
 
 </section>
    <section id="experiment-article-section-3">
@@ -112,17 +129,22 @@ edit -->
                     <div class="heading" id=
                     "experiment-article-section-3-heading">
                         Self Evaluation
-                    </div><!-- Write the section content inside a paragraph 
-        element, we can also include images with &lt;img&gt; tag -->
-
-                    <div class="content" id=
+                    </div>
+<div class="content" id=
                     "experiment-article-section-3-content">
                         <div class="divQuiz">
                             <div id="displayQuiz">
                                 <form id="form11" method="post" name="form11">
-                                  
-                                  
-                                </form><br>
+                                  <p> Check your understanding after you have gone through the basic theory and the procedure to use the simulator.</p>                             
+ <a style="margin-top: 40px;float: left;
+width: auto;
+padding: 5px 15px;
+color: #FFF;
+background-color: #008B8B;
+border: 1px solid #FFF;
+border-radius: 5px;
+text-decoration: none;" href="index2.html">Get Started</a> 
+                                </form>
                             </div><br>
                         </div>
                     </div>
@@ -131,18 +153,16 @@ edit -->
                 <section id="experiment-article-section-4">
                     <div class="icon" id="experiment-article-section-4-icon">
                     <!-- Enclose the icon image of your lab.-->
-                    <img src="../images/simulation.jpg" style="padding-left: 20px;"></div>
+                    <img src="../images/simulation.jpg" style="padding-left: 25px;"></div>
 
                     <div class="heading" id=
                     "experiment-article-section-4-heading">
-                        Simulator
+                        Simulation
                     </div>
 
-                    <div class="content" id=
-                    "experiment-article-section-4-content">
-                        <div class="divContent">
-                           
-<div class="jwts_title"><div class="jwts_title_left"><a href="javascript:void(null);" title="Click to open!" class="jwts_title_text">expN</a></div></div><div class="jwts_slidewrapper"><div> EXPLAIN for talking tutorial</p>
+
+<div class="jwts_title"><div class="jwts_title_left"><a href="#" onclick="toggle_visibility('foo4');" class="jwts_title_text">expN</a></div></div>
+<div id="foo4" style='display:none;margin-left:30px;'> EXPLAIN for talking tutorial</p>
 <p>
 	
 
@@ -154,27 +174,27 @@ edit -->
 		<span id="AVPlayerID_baea2dc3" class="avPlayerBlock" style="padding-bottom:8px;">
 <iframe width="800" height="600" src="https://www.youtube.com/embed/I7pW6blaWTs?rel=0" frameborder="0" allowfullscreen></iframe>	</span><br>
 
-				<a class="avLightbox" href="#AVPlayerID_baea2dc3" title="Click to view video in a lightbox popup">Dim lights</a>
-				
 				<!--<a class="avDownload" href="..images/swf/Slider Crank Mechanism position with offset.flv" title="Click to download media">Download</a>
 		
-				Embed <span class="avEmbed" id="embed_AVPlayerID_baea2dc3" title="Click to select"><b>Embed this video on your site</b></span>-->
+				Embed <span class="avEmbed" id="embed_AVPlayerID_baea2dc3" title="Click to select"><b>Embed this video on your site</b></span>
 			Embed<input type="text" name="lastname" value="<iframe width=&quot;800&quot; height=&quot;600&quot; src=&quot;https://www.youtube.com/embed/I7pW6blaWTs?rel=0&quot; frameborder=&quot;0&quot; allowfullscreen></iframe>">	
-	</span>
+	</span>-->
 </span>
 
 <!-- JoomlaWorks "AllVideos" Plugin (v3.1) ends here -->
 
 </p>
 <p>
-	</div></div> <div class="jwts_title"><div class="jwts_title_left"><a href="javascript:void(null);" title="Click to open!" class="jwts_title_text">expR</a></div></div><div class="jwts_slidewrapper"><div> EXPLORE User to explore all possibilities<br><object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0" height="600" width="800"><param name="quality" value="high" /><param name="movie" value="../images/swf/Slideroffset_Pos_ExpL.swf" /><embed height="600" pluginspage="http://www.macromedia.com/go/getflashplayer" quality="high" src="../images/swf/Slideroffset_Pos_ExpL.swf" type="application/x-shockwave-flash" width="800"></embed></object> </div></div> <div class="jwts_title"><div class="jwts_title_left"><a href="javascript:void(null);" title="Click to open!" class="jwts_title_text">expT</a></div></div><div class="jwts_slidewrapper"><div> EXPERIMENT User to conduct an experiment </div></div> </div></p>
+	</div>
+ <div class="jwts_title"><div class="jwts_title_left"><a href="#" onclick="toggle_visibility('foo5');" class="jwts_title_text">expR</a></div></div>
+  
+<div id="foo5" style='display:none;margin-left:30px;'> EXPLORE User to explore all possibilities<br><object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0" height="600" width="800"><param name="quality" value="high" /><param name="movie" value="../images/swf/Slideroffset_Pos_ExpL.swf" /><embed height="600" pluginspage="http://www.macromedia.com/go/getflashplayer" quality="high" src="../images/swf/Slideroffset_Pos_ExpL.swf" type="application/x-shockwave-flash" width="800"></embed></object> </div>
 
-
-
-			
-
-
-                </section>
+<div class="jwts_title"><div class="jwts_title_left"><a href="#" onclick="toggle_visibility('foo7');" class="jwts_title_text">expR (for Non-Flash Users)</a></div></div>
+<div id="foo7" style='display:none;margin-left:30px; width:800px; height:630px'>EXPLORE : User to explore all possibilities<br>
+<iframe width="800px" height="600px" src="../images/MOM/SliderCrankOffsetver1.html"></iframe>
+</div>
+     </section>
 
       <section id="experiment-article-section-5">
                     <div class="icon" id="experiment-article-section-5-icon">
@@ -192,67 +212,29 @@ edit -->
                     <div class="content" id=
                     "experiment-article-section-5-content">
                         <div class="divContent">
-                            
+                            <ol><li>What is the variation in quick return ratio with change in offset for fixed crank shaft and connecting rod length in offset slider crank mechanism?</li></ol>
 
-                            
-                        </div>
-                    </div>
-                </section><!-- Second section of the article-->
-
-             
- <section id="experiment-article-section-6">
-                    <div class="icon" id="experiment-article-section-6-icon">
-                    <!-- Enclose the icon image of your lab.-->
-                    <img src="../images/reference.jpg" style="padding-left: 15px;"></div>
-
-                    <div class="heading" id=
-                    "experiment-article-section-6-heading">
-                        Reference
-                    </div>
-
-                    <div class="content" id=
-                    "experiment-article-section-6-content">
-                        <div class="divContent">
-                            
-                          
-                        </div>
-                    </div>
-                </section>
-            
-              
-                            
-<section id="experiment-article-section-7">
-                    <div class="icon" id="experiment-article-section-7-icon">
-                    <!-- Enclose the icon image of your lab.-->
-                    <img src="../images/video.jpg"></div>
-                    <div class="heading" id=
-                    "experiment-article-section-7-heading">
-                        Video 
-                    </div>
-
-                    <div class="content" id=
-                    "experiment-article-section-7-content">
-                        <div class="divQuiz">
                             
                         </div>
                     </div>
                 </section>
 
-                <section id="experiment-article-section-8">
+<section id="experiment-article-section-8">
                     <div class="icon" id="experiment-article-section-8-icon">
                     <!-- Enclose the icon image of your lab.-->
                     <img src="../images/quiz.jpg"></div>
-
-                    <div class="heading" id=
+     <div class="heading" id=
                     "experiment-article-section-8-heading">
-                        Quiz 
+                        Quiz
                     </div>
 
                     <div class="content" id=
                     "experiment-article-section-8-content">
-                        <div class="divContent">
-                           
-                              <a style="margin-top: 40px;float: left;
+                        <div class="divQuiz">
+                            <div id="displayQuiz">
+                                <form id="form11" method="post" name="form11">
+                                    <p> Check your ability to answer some of the questions relevant to the simulation that you used.</p> 
+ <a style="margin-top: 40px;float: left;
 width: auto;
 padding: 5px 15px;
 color: #FFF;
@@ -260,12 +242,68 @@ background-color: #008B8B;
 border: 1px solid #FFF;
 border-radius: 5px;
 text-decoration: none;" href="index1.html">Get Started</a>
+
+
+                                   
+                                </form><br>
+                            </div><br>
+                        </div>
+                    </div>
+                </section> 
+
+                <section id="experiment-article-section-7">
+                    <div class="icon" id="experiment-article-section-7-icon">
+                    
+                    <img src="../images/video.jpg" style="padding-left:7px"></div>
+
+                    <div class="heading" id=
+                    "experiment-article-section-7-heading">
+                        Videos
+                    </div>
+
+                    <div class="content" id="experiment-article-section-7-content">
+                        <div class="divContent">
+                         NPTEL:<br>
+                             <a href="https://www.youtube.com/watch?v=MJeRFzs4oRU&list=PLBEA57F7E7560C8E8">Kinematics of Machines</a><br>
                         </div>
                     </div>
                 </section>
 
-               
+           <section id="experiment-article-section-6">
+                    <div class="icon" id="experiment-article-section-6-icon">
+                   
+                    <img src="../images/reference.jpg" style="padding-left: 25px;"></div>
 
+                    <div class="heading" id=
+                    "experiment-article-section-6-heading">
+                        References
+                    </div>
+
+                    <div class="content" id="experiment-article-section-6-content">
+                        <div class="divContent">
+                            <ul><li>
+                            <p style="font-family:courier new,courier,monospace; font-size:18px;"> Robert L Norton (2011), Design of Machinery (5th Ed.), McGraw Hill Publication </p></li>
+                            <li><p style="font-family:courier new,courier,monospace; font-size:18px;">Uicker J.J., Pennock G.R. and Shigley J.E. (2009), Theory of Machines and Mechanisms (3rd Ed.), Oxford University Press </p></li>
+                            <li><p style="font-family:courier new,courier,monospace; font-size:18px;"> S S Rattan (2014), Theory of Machines (4th Ed.), McGraw Hill Education (India) Private Limited</p></li>
+                        </ul></div>
+                    </div>
+                </section>
+<!--                 <section id="experiment-article-section-9">
+                    <div class="icon" id="experiment-article-section-9-icon">
+                    <!-- Enclose the icon image of your lab.-->
+    <!--                <img src="../images/nptel_library_icon.png"></div>
+
+                    <div class="heading" id=
+                    "experiment-article-section-9-heading">
+                        NPTEL  
+                    </div>
+
+                    <div class="content" id=
+                    "experiment-article-section-9-content">
+                        <div class="divContent">
+                        </div>
+                    </div>
+                </section> -->
               
             </div>
         </article>

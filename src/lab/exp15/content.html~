@@ -8,13 +8,7 @@ edit -->
 <html>
 <head>
     <title>Hart Straight Line Mechanism </title>
-<style type="text/css">
-#wrap {
-    width:85%;
-}
 
-
-</style>
 </head>
 
 <body>
@@ -80,7 +74,8 @@ edit -->
                     <div class="content" id=
                     "experiment-article-section-1-content">
                         <div class="divContent" id="wrap">
-                            
+                            <p> Hart's Straight Line Mechanism also known as Hart's inversor is a mechanism developed by Harry Hart. It can draw a perfect straight line (unlike some mechanisms developed earlier which can only draw an approximate straight line).
+
 						</div>
                     </div>
 				</section> 
@@ -104,7 +99,8 @@ edit -->
                             <p class="MsoNormal" style="line-height: 150%;">
                             <span lang="EN-IN" style=
                             'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
-                            &nbsp;<b></b></span></p>
+                            The main purpose of this simulation is to understand the motion in Hart's Straight Line Mechanism. Change the parameters under the Variables Section in the simulation to see how the location and length of straight line motion changes.
+You can hover over "Relation Between Links" to see the geometric relations between various links of the mechanism.</span></p>
 
                             
                           
@@ -121,18 +117,22 @@ edit -->
                     <div class="heading" id=
                     "experiment-article-section-3-heading">
                         Self Evaluation
-                    </div><!-- Write the section content inside a paragraph 
-        element, we can also include images with &lt;img&gt; tag -->
-
-                    <div class="content" id=
+                    </div>
+<div class="content" id=
                     "experiment-article-section-3-content">
                         <div class="divQuiz">
                             <div id="displayQuiz">
                                 <form id="form11" method="post" name="form11">
-                                   
-                                 
-                                  
-                                </form><br>
+                                  <p> Check your understanding after you have gone through the basic theory and the procedure to use the simulator.</p>                             
+ <a style="margin-top: 40px;float: left;
+width: auto;
+padding: 5px 15px;
+color: #FFF;
+background-color: #008B8B;
+border: 1px solid #FFF;
+border-radius: 5px;
+text-decoration: none;" href="index2.html">Get Started</a> 
+                                </form>
                             </div><br>
                         </div>
                     </div>
@@ -141,19 +141,18 @@ edit -->
                 <section id="experiment-article-section-4">
                     <div class="icon" id="experiment-article-section-4-icon">
                     <!-- Enclose the icon image of your lab.-->
-                     <img src="../images/simulation.jpg" style="padding-left: 20px;"></div>
+                     <img src="../images/simulation.jpg" style="padding-left: 25px;"></div>
 
                     <div class="heading" id=
                     "experiment-article-section-4-heading">
-                        Simulator
+                        Simulation
                     </div>
 
-                    <div class="content" id=
-                    "experiment-article-section-4-content">
-                        <div class="divContent">
-                          
+             
+		
 
-<div class="jwts_title"><div class="jwts_title_left"><a href="javascript:void(null);" title="Click to open!" class="jwts_title_text">expN</a></div></div><div class="jwts_slidewrapper"><div> EXPLAIN for talking tutorial</p>
+<div class="jwts_title"><div class="jwts_title_left"><a href="#" onclick="toggle_visibility('foo4');" class="jwts_title_text">expN</a></div></div>
+<div id="foo4" style='display:none;margin-left:30px;'> EXPLAIN for talking tutorial</p>
 <p>
 	
 
@@ -167,12 +166,12 @@ edit -->
 <iframe width="800" height="600" src="https://www.youtube.com/embed/j---GXx3ASQ?rel=0" frameborder="0" allowfullscreen></iframe>
 		</span><br>
 
-				<a class="avLightbox" href="#AVPlayerID_68fb157a" title="Click to view video in a lightbox popup">Dim lights</a>
+				
 				
 				<!--<a class="avDownload" href="../images/swf/Hart Straight Line Mechanism.flv" title="Click to download media">Download</a>
 		
 				Embed <span class="avEmbed" id="embed_AVPlayerID_68fb157a" title="Click to select"><b>Embed this video on your site</b></span>-->
-				Embed<input type="text" name="lastname" value="<iframe width=&quot;800&quot; height=&quot;600&quot; src=&quot;https://www.youtube.com/embed/j---GXx3ASQ?rel=0&quot; frameborder=&quot;0&quot; allowfullscreen></iframe>">
+				
 	</span>
 </span>
 
@@ -180,12 +179,14 @@ edit -->
 
 </p>
 <p>
-	</div></div> <div class="jwts_title"><div class="jwts_title_left"><a href="javascript:void(null);" title="Click to open!" class="jwts_title_text">expR</a></div></div><div class="jwts_slidewrapper"><div> EXPLORE User to explore all possibilities<br> <param name="quality" value="high" /><param name="movie" value="../images/swf/Hart_expl_ver05.swf" /><object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0" height="600" width="800"><param name="quality" value="high" /><param name="movie" value="../images/swf/HartMech.swf" /><embed height="600" pluginspage="http://www.macromedia.com/go/getflashplayer" quality="high" src="../images/swf/HartMech.swf" type="application/x-shockwave-flash" width="800"></embed></object></div></div><div class="jwts_title"><div class="jwts_title_left"><a href="javascript:void(null);" title="Click to open!" class="jwts_title_text">expT</a></div></div><div class="jwts_slidewrapper"><div> EXPERIMENT User to conduct an experiment </div></div> </div></p>
+	</div>
+<div class="jwts_title"><div class="jwts_title_left"><a href="#" onclick="toggle_visibility('foo5');" class="jwts_title_text">expR</a></div></div>
+<div id="foo5" style='display:none;margin-left:30px;'> EXPLORE User to explore all possibilities<br> <param name="quality" value="high" /><param name="movie" value="../images/swf/Hart_expl_ver05.swf" /><object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0" height="600" width="800"><param name="quality" value="high" /><param name="movie" value="../images/swf/HartMech.swf" /><embed height="600" pluginspage="http://www.macromedia.com/go/getflashplayer" quality="high" src="../images/swf/HartMech.swf" type="application/x-shockwave-flash" width="800"></embed></object></div>
 
-                    </div>
-
-			
-
+<div class="jwts_title"><div class="jwts_title_left"><a href="#" onclick="toggle_visibility('foo7');" class="jwts_title_text">expR (for Non-Flash Users)</a></div></div>
+<div id="foo7" style='display:none;margin-left:30px; width:800px; height:630px'>EXPLORE : User to explore all possibilities<br>
+<iframe width="800px" height="600px" src="../images/MOM/Hart_ver2.html"></iframe>
+</div>
 
                 </section>     
   <section id="experiment-article-section-5">
@@ -204,70 +205,98 @@ edit -->
                     <div class="content" id=
                     "experiment-article-section-5-content">
                         <div class="divContent">
-                          
+                          <ol><li>Use the relations shown in the simulation and prove that the Hart's linkage can be used to draw an exact straight line.</li></ol>
 
-                            
-                        </div>
-                    </div>
-                </section><!-- Second section of the article-->
-
-              
-   <section id="experiment-article-section-6">
-                    <div class="icon" id="experiment-article-section-6-icon">
-                    <!-- Enclose the icon image of your lab.-->
-                     <img src="../images/reference.jpg" style="padding-left: 15px;"></div>
-
-                    <div class="heading" id=
-                    "experiment-article-section-6-heading">
-                        Reference
-                    </div>
-
-                    <div class="content" id=
-                    "experiment-article-section-6-content">
-                        <div class="divContent">
                             
                         </div>
                     </div>
                 </section>
 
-               
-
-                <section id="experiment-article-section-7">
-                    <div class="icon" id="experiment-article-section-7-icon">
-                    <!-- Enclose the icon image of your lab.-->
-                    <img src="../images/video.jpg"></div>
-
-                    <div class="heading" id=
-                    "experiment-article-section-7-heading">
-                        Video 
-                    </div>
-
-                    <div class="content" id=
-                    "experiment-article-section-7-content">
-                        
-                    </div>
-                </section>
-                <section id="experiment-article-section-8">
+<section id="experiment-article-section-8">
                     <div class="icon" id="experiment-article-section-8-icon">
                     <!-- Enclose the icon image of your lab.-->
-                     <img src="../images/quiz.jpg"></div>
-
-                    <div class="heading" id=
+                    <img src="../images/quiz.jpg"></div>
+     <div class="heading" id=
                     "experiment-article-section-8-heading">
                         Quiz
                     </div>
 
                     <div class="content" id=
                     "experiment-article-section-8-content">
-                        <div class="divContent">
-                           
+                        <div class="divQuiz">
+                            <div id="displayQuiz">
+                                <form id="form11" method="post" name="form11">
+                                    <p> Check your ability to answer some of the questions relevant to the simulation that you used.</p> 
+ <a style="margin-top: 40px;float: left;
+width: auto;
+padding: 5px 15px;
+color: #FFF;
+background-color: #008B8B;
+border: 1px solid #FFF;
+border-radius: 5px;
+text-decoration: none;" href="index1.html">Get Started</a>
 
-                            
-                            
+
+                                   
+                                </form><br>
+                            </div><br>
+                        </div>
+                    </div>
+                </section> 
+
+                <section id="experiment-article-section-7">
+                    <div class="icon" id="experiment-article-section-7-icon">
+                    
+                    <img src="../images/video.jpg" style="padding-left:7px"></div>
+
+                    <div class="heading" id=
+                    "experiment-article-section-7-heading">
+                        Videos
+                    </div>
+
+                    <div class="content" id="experiment-article-section-7-content">
+                        <div class="divContent">
+                         NPTEL:<br>
+                             <a href="https://www.youtube.com/watch?v=MJeRFzs4oRU&list=PLBEA57F7E7560C8E8">Kinematics of Machines</a><br>
                         </div>
                     </div>
                 </section>
 
+           <section id="experiment-article-section-6">
+                    <div class="icon" id="experiment-article-section-6-icon">
+                   
+                    <img src="../images/reference.jpg" style="padding-left: 25px;"></div>
+
+                    <div class="heading" id=
+                    "experiment-article-section-6-heading">
+                        References
+                    </div>
+
+                    <div class="content" id="experiment-article-section-6-content">
+                        <div class="divContent">
+                            <ul><li>
+                            <p style="font-family:courier new,courier,monospace; font-size:18px;"> Robert L Norton (2011), Design of Machinery (5th Ed.), McGraw Hill Publication </p></li>
+                            <li><p style="font-family:courier new,courier,monospace; font-size:18px;">Uicker J.J., Pennock G.R. and Shigley J.E. (2009), Theory of Machines and Mechanisms (3rd Ed.), Oxford University Press </p></li>
+                            <li><p style="font-family:courier new,courier,monospace; font-size:18px;"> S S Rattan (2014), Theory of Machines (4th Ed.), McGraw Hill Education (India) Private Limited</p></li>
+                        </ul></div>
+                    </div>
+                </section>
+<!--                 <section id="experiment-article-section-9">
+                    <div class="icon" id="experiment-article-section-9-icon">
+                    <!-- Enclose the icon image of your lab.-->
+    <!--                <img src="../images/nptel_library_icon.png"></div>
+
+                    <div class="heading" id=
+                    "experiment-article-section-9-heading">
+                        NPTEL  
+                    </div>
+
+                    <div class="content" id=
+                    "experiment-article-section-9-content">
+                        <div class="divContent">
+                        </div>
+                    </div>
+                </section> -->
              
 
                 
