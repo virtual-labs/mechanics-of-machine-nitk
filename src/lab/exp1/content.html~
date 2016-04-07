@@ -60,7 +60,7 @@ edit -->
                     </div>
                     <div class="content" id="experiment-article-section-1-content">
 <p style="font-size:20px; color:black">Learning objectives</p>
-<p>After completing the simulation experiments on fourbar Grashof mechanism one should be able to
+<p>After completing this simulation experiment one should be able to
 <ul><li>Determine the location CG of any given link in a Grashof four bar
 mechanism</li><li>Determine the output link angle of a Grashof four bar mechanism for any
 given crank angle</li><li>Calculate the transmission angle of a given Grashof four bar mechanism at

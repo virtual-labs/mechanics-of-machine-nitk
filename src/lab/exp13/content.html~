@@ -128,7 +128,7 @@ text-decoration: none;" href="index2.html">Get Started</a>
                 <section id="experiment-article-section-4">
                     <div class="icon" id="experiment-article-section-4-icon">
                     <!-- Enclose the icon image of your lab.-->
-                    <img src="../images/simulation.jpg" style="padding-left: 25px;"></div>
+                    <img src="../images/simulation.jpg" style="padding-left: 20px;"></div>
 
                     <div class="heading" id=
                     "experiment-article-section-4-heading">
