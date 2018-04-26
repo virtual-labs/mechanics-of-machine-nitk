@@ -4,73 +4,60 @@
 
 var quizJSON = {
     "info": {
-        "name":    "Self Evaluation Exp1",
+        "name":    "Test Your Knowledge Exp1",
         "main":    "<p></p>",
-        "results": "<p style='font-size:20px'><a href='index.html'><u>Click here</u></a> to go to simulation</p>",
-        "level1":  "Good! You can move on to the simulator right away",
-        "level2":  "Make sure to get that one right the next time",
-        "level3":  "You did well, but there is still scope of improvement. We suggest another reading of basics before going to simulator",
-        "level4":  "May be it is better you improve your understanding a little more before moving on to the simulator",
-        "level5":  "We think you should go through the theory once more before using the simulator" // no comma here
+        "results": "<a href='../index.html'>click here</a> to go to list of Experiments",
+        "level1":  "Excellent! You should try another Experiment.",
+        "level2":  "That was nice. May be next time you'll get all of them right! Good Luck!",
+        "level3":  "Give another try at the simulator. You should be able to pick up few more things this time.",
+        "level4":  "Probably you need to build some more understanding about the topic.",
+        "level5":  "May be you should spend some more time with the concepts." // no comma here
     },
     "questions": [
         { // Question 1 - Multiple Choice, Single True Answer
-            "q": "Which of these gives a perfect straight line motion?",
+            "q": "How many four bar mechanisms are used in the Tchebichev walking mechanism?",
             "a": [
-                {"option": "Hart's Inversor",      "correct": true},
-                {"option": "Modified Scott Russel Mechanism",     "correct": false},
-                {"option": "Watt's straight line linkage",      "correct": false},
-                {"option": "None of these",     "correct": false} // no comma here
+                {"option": "1",      "correct": true},
+                {"option": "2",     "correct": false},
+                {"option": "3",      "correct": false},
+                {"option": "4",     "correct": false} // no comma here
             ],
-            "correct": "<p><span>Right answer</span></p>",
-            "incorrect": "<p><span>wrong</span> It's wrong,<br>Ans:Hart's Inversor</p>" // no comma here
+            "correct": "<p><span>Right answer</span> Ans : 1</p>",
+            "incorrect": "<p><span>wrong</span> It's wrong,<br>Ans : 1</p>" // no comma here
         },
         { // Question 2 - Multiple Choice, Multiple True Answers, Select Any
-            "q": "Which of the following is a simple four bar chain?",
+            "q": "If the shortest link is 10cm in Tchebichev Mechanism, what is the length of longest link?",
             "a": [
-                {"option": "Tchebichev Mechanism",               "correct": true},
-                {"option": "Hart's Inversor",   "correct": false},
-                {"option": "Peaucellier Mechanism",      "correct": false},
-                {"option": "None of these",     "correct": false} // no comma here
+                {"option": "25cm",               "correct": true},
+                {"option": "20cm",   "correct": false},
+                {"option": "15cm",      "correct": false},
+                {"option": "30cm",     "correct": false} // no comma here
             ],
             "select_any": true,
-            "correct": "<p><span>Right answer</span> </p>",
-            "incorrect": "<p><span>wrong</span> <br>Correct Answer is : Tchebichev Mechanism</p>" // no comma here
+            "correct": "<p><span>Right answer</span></p>",
+            "incorrect": "<p><span>wrong</span><br> Correct Answer is : 25cm</p>" // no comma here
         },
        { // Question 3 - Multiple Choice, Multiple True Answers, Select All
-            "q": "The link in a four bar mechanism is ?",
+            "q": "The ratio of links in Tchebichev Mechanism (Shortest:Fixed:RemainingTwo) is ?",
             "a": [
-                {"option": "Binary link ",           "correct": true},
-                {"option": "Ternary link",                  "correct": false},
-                {"option": "Flexible link",  "correct": false},
-                {"option": "None of these",          "correct": false} // no comma here
+                {"option": "1:2:2.5",           "correct": true},
+                {"option": "1:2.5:2",                  "correct": false},
+                {"option": "1:2:4",  "correct": false},
+                {"option": "1:4:2",          "correct": false} // no comma here
             ],
-             "correct": "<p><span>Right answer</span></p>",
-            "incorrect": "<p><span>wrong</span> It's wrong,<br>Ans:Binary link </p>" // no comma here
+             "correct": "<p><span>Right answer</span> </p>",
+            "incorrect": "<p><span>wrong</span> <br>Correct Answer Is : 1:2:2.5 </p>" // no comma here
         },
         { // Question 4
-            "q": " Tchebichev lambda mechanism satisfies Grashof rule. This statement is ",
+            "q": " Which point on the Tchebichev Mechanism moves in approximate straight line? ",
             "a": [
-                {"option": "True",    "correct": true},
-                {"option": "False",     "correct": false},
-                {"option": "Sometime True",      "correct": false} // no comma here
+                {"option": " Mid-point of shortest link ",    "correct": true},
+                {"option": " Mid-point of longest link",     "correct": false},
+                {"option": " End-point of shortest link",      "correct": false},
+              {"option": " None of these",   "correct": false} // no comma here
             ],
-            "correct": "<p><span>Right answer</span</p>",
-            "incorrect": "<p><span>wrong</span> The statement is Always True. </p>"  // no comma here
-        },
-        { // Question 5 
-            "q": " Watts indicator is an inversion of ",
-            "a": [
-                {"option": "Four bar mechanism ",    "correct": true},
-                {"option": " Double slider crank mechanism",     "correct": false},
-		 {"option": "Slider crank mechanism",  "correct": false},
-                {"option": " Six bar mechanism",  "correct": false} 
-
-
-// no comma here
-            ],
-            "correct": "<p><span>Right answer</span> Ans: Four bar mechanism </p>",
-            "incorrect": "<p><span>wrong</span> It's wrong,Ans: Four bar mechanism </p>"  // no comma here
+            "correct": "<p><span>Right answer</span> </p>",
+            "incorrect": "<p><span>wrong</span><br>Correct Answer is : Mid-point of shortest link </p>"  // no comma here
         }
-   ]
+    ]
 };

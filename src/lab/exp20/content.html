@@ -1,0 +1,606 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Ecccentric Cam Mechanism</title>
+
+	
+</head>
+
+<body>
+  <div id="experiment">
+        <!-- The Experiment Document Container-->
+        <!-- The lab Header contains the logo and the name of the lab,
+  usually displayed on the top of the page-->
+
+        <header class="default" id="experiment-header">
+            <div class="logo" id="experiment-header-logo">
+            <!-- Enclose the logo image of your lab or write it in 
+      text-->
+            <img src="../images/logo.jpg"></div>
+
+            <div class="heading" id="experiment-header-heading">
+                <!-- Write the name of your lab and link it to the home 
+      page of your lab (h1 tag is preferred while writing your 
+      lab name)-->
+                <a href="../index.html">Mechanics of Machines Lab</a>
+            </div><!-- Add any additional element you want to add to the lab 
+    header, For example : Help (Enclosing them with suitable 
+    div is recommended)-->
+        </header><!-- The lab article is the main content area where all the 
+  experiment content sits-->
+
+        <article id="experiment-article">
+            <!-- The lab article has an header, optional navigational 
+    menu, number of sections, an optional sidebar and a closing 
+    footer-->
+
+            <div class="breadcrumb" id="experiment-article-breadcrumb"></div>
+
+            <header class="heading" id="experiment-article-heading">
+           Eccentric Cam Mechanism
+            </header><!-- Navigation menu is useful to organize the view of 
+      multiple sections inside the article-->
+
+            <nav class="default" id="experiment-article-navigation">
+                <ul id="experiment-article-navigation-menu">
+                    <!-- The menu can be dynamically generated to contain 
+          the headings of your sections or instead write the 
+          menu items of your choice individually enclosedu in 
+          &lt;li&gt; tag as shown below-->
+                </ul>
+            </nav><!-- All the sections of your lab or experiment can be 
+      enclosed together with a div element as shown below-->
+                <div id="experiment-article-sections">
+                <!-- First section of the article-->
+
+  <section id="experiment-article-section-1">
+                    <div class="icon" id="experiment-article-section-1-icon">
+                    <!-- Enclose the icon image of your lab. -->
+                     <img src="../images/theory.jpg"></div>
+
+                    <div class="heading" id=
+                    "experiment-article-section-1-heading">
+                         Theory
+                    </div>
+
+                    <div class="content" id="experiment-article-section-1-content">
+                        <div class="divContent" id="wrap">
+						<p style="font-size:18px; color:black;">Learning objectives</p> </br>
+						<!-- <p><h2>Learning objectives :</h2></p></br> -->
+                        <p>After completing the simulation experiment on eccentric and elliptical cam one should be able to: </p></br>
+						<ul>
+                        <li>To understand the position, velocity, acceleration and jerk of a cam with respect to time.</li>
+						<li>To observe the effect of change in radius, eccentricity, angular position and speed on the position, velocity, acceleration and jerk of the follower. </li>
+   						</ul>
+                        </div><br/>
+                     <div class="divContent" id="wrap">
+					 	<p style="font-size:18px; color:black;">Introduction </p> </br>
+                        <p>Cams are mechanical devices, used to generate the curvilinear or irregular motion of mechanical elements. Cams convert rotary motion into oscillatory motion or oscillatory motion into rotary motion. In general, cams have three elements, namely; cam, follower and the frame. The cam acts as an input member and the follower functions as an output member. The frame supports the cam and guides the follower. Transmission of motion from the cam to the follower is achieved by direct contact, where the rotation motion is converted into the translation motion. The cams are more advantageous in producing complicated output motions, which are otherwise difficult to achieve.</p></br>
+						
+						<p><b>Classification of cams : </b></p>
+						<p>The cams are classified based on the profile and its contour. The basic classification include,</p></br>
+						
+						<p><b>Wedge and Flat Cams</b></p>
+						<p>The cams are classified based on the profile and its contour. The basic classification include,</p></br>
+						
+						<p>A typical arrangement of wedge cam is shown in Figure 1a. A wedge cam has a wedge of specified contour and a follower. The follower can either translate or oscillate based on the translation motion of the cam. A spring is used to maintain the constant contact between the cam and the follower. </p><br/>
+						
+						<p><b>Plate cam</b></p>
+						
+						<p>The plate(or disc) cam (Figure 1b) is a flat disc with an irregular contour to impart a specific motion to the follower. The follower moves in a plane normal to the axis of rotation of the camshaft and is held in contact with the cam by springs or gravity. As the cam is rotates,  its profile translates into a particular movement of the  follower usually up and down. Plate cams are very popular due to their simplicity and compactness. </p><br/>
+						
+						<p><b>Cylindrical cam  </b></p>
+						
+						<p>Cylindrical cam (Figure 1c) comprises of a groove cut on its outer periphery. The roller follower operates in a groove may translate or oscillate. </p><br/>
+						
+                        <center><img  style="width:567px; height:184px ; position: relative; " src="../images/exp20-3.png"></center></br></br>
+						
+						<center><p>Figure 1 Types of cam (a) Wedge cam, (b) Plate cam (c) Cylindrical cam</p></center></br></br>
+						
+						<center><p>[Courtesy: <a href="http://nptel.ac.in/courses/112103174/module4/lec3/1.html">http://nptel.ac.in/courses/112103174/module4/lec3/1.html</a>]</p></center></br></br>
+						
+						<p><b>Cam Nomenclature</b></p>
+						
+						<p>The nomenclature of a Cam is illustrated Figure 2.</p><br/>
+						
+						<center><img  style="width:296px; height:247px ; position: relative; " src="../images/exp20-4.png"></center></br></br>
+
+						<center><p>Figure 2.  Cam nomenclature</p></center></br></br>
+						
+						<center><p>[Courtesy: <a href="https://www.cs.cmu.edu/~rapidproto/mechanisms/chpt6.htm">https://www.cs.cmu.edu/~rapidproto/mechanisms/chpt6.htm</a>]</p></center></br></br>
+						
+						<p><b>Trace point </b>: A theoretical point on the follower, corresponding to a fictitious knife-edge follower. It is used to generate the pitch curve. For a roller follower, the trace point is at the centre of the roller.</p></br>
+						
+						<p><b>Pitch curve:</b> The path generated by the trace point as the follower rotates about a stationary cam.</p></br>
+						
+						<p><b>Working curve</b>: The working surface of a cam in contact with the follower. For the knife-edge follower of the plate cam, the pitch curve and the working curves coincide.</p></br>
+						
+						<p><b>Pitch circle</b>: A circle from the cam centre through the pitch point. The pitch circle radius is used to calculate the minimum size a cam for a given pressure angle.</p></br>
+						
+						
+						<p><b>Prime circle (reference circle)</b>: The smallest circle from the cam centre through the pitch curve.</p></br> 
+						
+						<p><b>Base circle</b>: The smallest circle from the cam centre through the cam profile curve.</p></br>
+						
+                        <p><b>Stroke or throw</b>: The greatest distance or angle through which the follower moves or rotates.</p></br>
+
+						<p><b>Follower displacement</b>: The position of the follower from a specific zero or rest position (usually its the position when the follower contacts with the base circle of the cam) in relation to time or the rotary angle of the cam.</p></br>
+						
+                        <p><b>Pressure angle</b>: The angle at any point between the normal to the pitch curve and the instantaneous direction of the follower motion. This angle is important in cam design because it represents the steepness of the cam profile.</p></br>
+
+						
+						<p><b>Motion events</b></p>
+                        
+						<p>During the motion of a cam for one complete cycle, the follower executes a series of events consisting of rises, dwells and returns (Figure 3). Rise is the motion of the follower away from the cam centre, dwell is the motion during which the follower is at rest and return is the motion of the follower toward the cam centre.</p></br>
+
+						<center><img src="../images/exp20-5.png" style="width:449px; height:214px"></img></center></br>
+						
+						<center><p>Figure 3 Cam motion cycle </p></center></br>
+						
+						<center><p>[Courtesy:<a  href="https://en.wikipedia.org/wiki/Cam#/media/File:Basic_Displacement_Diagram.JPG">https://en.wikipedia.org/wiki/Cam#/media/File:Basic_Displacement_Diagram.JPG]</a></p></center></br>
+						
+						
+						<p><b>Applications of Cam</b></p>
+                      <p>Cams are widely used in automation of a machinery, gear cutting machines, screw machines, printing press, textile industries, automobile engine valves, tool changers of machine centres, conveyors, pallet changers, sliding fork in warehouses, etc. </p></br>
+					  
+                      <p><b>Cams in automobile</b></p>
+                      <p>Cams are also used in I.C engines to operate the inlet valves and exhaust valves. The cam shaft rotates by using prime movers. It causes the rotation of cam. This rotation produces translatory motion of tappet against the spring (Figure 4). This translatory motion is used to open or close the valve.</p> </br>
+					  
+					  <center><img src="../images/exp20-6.png" style="width:313px; height:360px"></img></center></br>
+						
+						<center><p>Figure 4 Application of cam in an automobile</p></center></br>
+						
+						<center><p>[Courtesy:<a  href="https://www.howacarworks.com">https://www.howacarworks.com]</a></p></center></br>
+
+						<p><b>Cams in automatic lathes</b></p>
+                        <p>The cam shaft is driven by a motor. The cutting tool mounted on the transverse slide travels to desired depth and at desired feed rate by a set of plate cams mounted on the cam shaft. The bar feeding through headstock at desired feed rate is carried out by a set of plate cams mounted on the camshaft.</p> </br>
+
+						<p><b>Automatic copying machine</b></p></br>
+						
+						<center><img src="../images/exp20-7.png" style="width:200px; height:152px"></img></center></br>
+						
+						<center><p>Figure 5 Automatic copying of cam profile</p></center></br>
+						
+						<center><p>[Courtesy:<a  href="http://nptel.ac.in/courses/112103174/module4/lec3/4.html">http://nptel.ac.in/courses/112103174/module4/lec3/4.html]</a></p></center></br>
+
+						<p>The cam profile can be transferred onto the work piece by using a roller follower as shown in Figure 5. The follower can be mounted with a cutting tool. As the cam traverses, the roller follows the cam profile. The required feature can be copied onto the work piece by the movement of follower over the cam profile.</p> </br>
+						
+					 </div>
+					 <div class="divContent" id="wrap">
+					 
+					 	<p><b>Velocity and acceleration analysis</b></p> </br>
+					 	<p><b>Eccentric cam </b>:</p> </br>
+						<p>An eccentric cam (Figure 6 ) is a disc with its centre of rotation positioned ‘off centre’. This means as the cam rotates the flat follower rises and falls at a constant rate. This type of cam is the easiest to make, and yet it is one of the most useful. It is most often employed in steam engines and used to convert rotary into linear reciprocating motion in order to drive a sliding valve or a pump ram.</p></br>
+						
+						<center><img  style="width:313px; height:202px ; position: relative; " src="../images/exp20-8.png"></center></br>
+
+						<center><p>Figure 6 An illustration of an Eccentric cam</p></center></br>
+						
+                        <p> An eccentric cam usually has a groove at its circumference around which is closely fitted a circular collar (eccentric strap) attached an eccentric rod. The rod is suspended in such a way that its other end can impart the required reciprocating motion. </p>  </br>
+						
+						<p><b>Velocity, acceleration and jerk in an eccentric cam</b></p>
+                        
+						<p>A detailed mathematical formulation to derive the velocity, acceleration and jerk in a eccentric cam is discussed below. </p>
+                        
+						<p>A schematic representation of an eccentric cam is show in Figure 7.</p>
+                        
+						<p>Let,</p>
+                        
+						<p>a = eccentricity</p>
+                        
+						<p>r= radius of circular cam </p>
+ 
+                         <p>θ= angular position of cam</p>
+                        
+						<p>θ= angular position of eccentric cam with respect to normal</p>
+
+						<p>ω= angular velocity of the cam (assumed to be constant)</p></br>
+
+						<p>With respect to the Figure 7, the  position of the follower of the elliptical cam is given by:</p></br>
+
+                        <center><img  style="width:316px; height:274px ; position: relative; " src="../images/exp20-9.png"></center></br>
+
+						<center><p>Figure 7 Schematic representation of an eccentric cam</p></center></br>
+						
+						<p>Position p in an eccentric cam is given by,</p></br>
+						
+                        <center><img  style="width:375px; height:35px ; position: relative; " src="../images/exp20-10.png"></center></br>
+
+						<p>where,</p></br>
+
+						<center><img  style="width:373px; height:50px ; position: relative; " src="../images/exp20-11.png"></center></br>
+
+						<p>The velocity of reciprocation v, of the follower is the derivative of position p and is given by:</p></br>
+						
+						<center><img  style="width:391px; height:31px ; position: relative; " src="../images/exp20-12.png"></center></br>
+						
+						<p>The acceleration of the follower acc, is also a derivative of velocity and it written as,</p></br>
+						
+						<center><img  style="width:486px; height:62px ; position: relative; " src="../images/exp20-13.png"></center></br>
+						
+						<p>The jerk is rate of change of acceleration and it is given by:</p></br>
+						
+						<center><img  style="width:508px; height:115px ; position: relative; " src="../images/exp20-14.png"></center></br>
+						
+						<b><p>Elliptical cam:</p></b>
+						<p>Elliptical cam is a special type of cam which is used for sudden increment in position, velocity, acceleration, or jerk is the elliptical cam. These parameters are dependent on the major and minor axis of the cam. Larger the difference between the major and minor axis of the elliptical cam, higher will be the velocity, acceleration and jerk received by the follower. It is worth noting that, if the major and minor axis of cam becomes equal, the  profile of cam becomes circular then the lift of the follower will be zero. </p></br>
+						
+						<p><b>Velocity, acceleration and jerk in an elliptical cam</b></p>
+                        <p>A schematic representation of an eccentric cam is shown in Figure 8.</p></br>
+						 
+						<center><img  style="width:385px; height:224px ; position: relative; " src="../images/exp20-15.png"></center></br>
+
+						<p>The position p of the follower of the elliptical cam is given by,</p>
+						
+						<center><img  style="width:400px; height:62px ; position: relative; " src="../images/exp20-16.png"></center></br>
+						
+						<p>where, a is the  semi-major axis of the ellipse,  b = semi-minor axis of the ellipse θ = angle made by the semi-major axis with the horizontal m= slope of the major axis ω = angular velocity of the cam (assumed to be constant)</p> 
+						
+						<p>The slope of the major axis with respect to the vertical is: </p> </br>
+						
+						<center><img  style="width:414px; height:29px ; position: relative; " src="../images/exp20-17.png"></center></br>
+
+						<p>The velocity of reciprocation of the follower is the first derivative of the position, which is given by,</p> </br>
+						
+						<center><img  style="width:434px; height:74px ; position: relative; " src="../images/exp20-18.png"></center></br>
+
+						<p>The velocity of reciprocation of the follower is the first derivative of the position, which is given by,</p> </br>
+						
+						<center><img  style="width:527px; height:172px ; position: relative; " src="../images/exp20-19.png"></center></br>
+
+						<p>The jerk experienced by the follower is the derivative of the acceleration and is given by,</p> </br>
+						
+						<center><img  style="width:642px; height:543px ; position: relative; " src="../images/exp20-20.png"></center></br>
+
+						
+                       </div>
+					</div>
+
+				</section>     
+   <section id="experiment-article-section-2">
+                    <div class="icon" id="experiment-article-section-2-icon">
+                    <!-- Enclose the icon image of your lab.-->
+                   <img src="../images/procedure.jpg" style="padding-left: 20px;"></div>
+
+                    <div class="heading" id=
+                    "experiment-article-section-2-heading">
+                        Procedure
+                    </div>
+
+                    <div class="content" id=
+                    "experiment-article-section-2-content">
+                        <div class="divContent" id="wrap">
+                          
+                            <ol>
+							<li>The simulation of eccentric cam is developed using JavaScript and HTML.</li>
+							<li>The simulation initially begins with the default set of parameters which can be changed  by adjusting the scroll of respective parameter as shown below.</li>
+							<center><img  style="width:433px; height:328px ; position: relative; " src="../images/exp20-1.png"></center></br>
+							
+							<li>For starting a simulation, select appropriate parameters for the simulation and click on the play.</li>
+							<center><img  style="width:428px; height:325px ; position: relative; " src="../images/exp20-2.png"></center></br>
+							
+							<li>To view the graphs, click on show graph.</li>
+							<li>Stopping the simulation after some time will give the position, velocity, acceleration and jerk at that instant.</li>
+							<center><img  style="width:450px; height:340px ; position: relative; " src="../images/exp20-21.png"></center></br>
+							</ol>
+
+                        </div>
+                    </div>
+
+                    
+				</section>
+  <section id="experiment-article-section-3">
+                    <div class="icon" id="experiment-article-section-3-icon">
+                    <!-- Enclose the icon image of your lab. -->
+                    <img src="../images/selfevaluation.jpg" style="padding-left:50px;"></div>
+                    <!-- The heading for the section can be enclosed in a 
+        div tag. -->
+
+                    <div class="heading" id=
+                    "experiment-article-section-3-heading">
+                        Self Evaluation
+                    </div>
+<div class="content" id=
+                    "experiment-article-section-3-content">
+                        <div class="divQuiz">
+                            <div id="displayQuiz">
+                                <form id="form11" method="post" name="form11">
+                                  <p> Check your understanding after you have gone through the basic theory and the procedure to use the simulator.</p>                             
+ <a style="margin-top: 40px;float: left;
+width: auto;
+padding: 5px 15px;
+color: #FFF;
+background-color: #008B8B;
+border: 1px solid #FFF;
+border-radius: 5px;
+text-decoration: none;" href="index2.html">Get Started</a> 
+                                </form>
+                            </div><br>
+                        </div>
+                    </div>
+                </section>
+   <section id="experiment-article-section-4">
+                    <div class="icon" id="experiment-article-section-4-icon">
+                    <!-- Enclose the icon image of your lab.-->
+                     <img src="../images/simulation.jpg" style="padding-left: 25px;"></div>
+                    <div class="heading" id=
+                    "experiment-article-section-4-heading">
+                        Simulation
+                    </div>
+<div class="content" id= "experiment-article-section-4-content">
+					<iframe noscroll="" scrolling="no" src="../images/simulation/Ecccentric Cam.html" height="610px" width="810px"></iframe></center>
+
+					</div>                  </section>
+
+                <section id="experiment-article-section-5">
+                    <div class="icon" id="experiment-article-section-5-icon">
+                    <!-- Enclose the icon image of your lab -->
+                    <img src="../images/assignment.jpg" style="padding-left: 20px;"></div>
+                    
+                    
+
+                    <div class="heading" id=
+                    "experiment-article-section-5-heading">
+                        Assignment
+                    </div><!-- Write the section content inside a paragraph 
+          element, You can also include images with &lt;img&gt; tag -->
+
+                    <div class="content" id=
+                    "experiment-article-section-5-content">
+                        <div class="divContent">
+                           <!-- <ol><li>Assignment questions here</li></ol> -->
+                            
+                        </div>
+                    </div>
+                </section>
+
+<section id="experiment-article-section-8">
+                    <div class="icon" id="experiment-article-section-8-icon">
+                    <!-- Enclose the icon image of your lab.-->
+                    <img src="../images/quiz.jpg"></div>
+     <div class="heading" id=
+                    "experiment-article-section-8-heading">
+                        Quiz
+                    </div>
+
+                    <div class="content" id=
+                    "experiment-article-section-8-content">
+                        <div class="divQuiz">
+                            <div id="displayQuiz">
+                                <form id="form11" method="post" name="form11">
+                                    <p> Check your ability to answer some of the questions relevant to the simulation that you used.</p> 
+ <a style="margin-top: 40px;float: left;
+width: auto;
+padding: 5px 15px;
+color: #FFF;
+background-color: #008B8B;
+border: 1px solid #FFF;
+border-radius: 5px;
+text-decoration: none;" href="index1.html">Get Started</a>
+
+
+                                   
+                                </form><br>
+                            </div><br>
+                        </div>
+                    </div>
+                </section> 
+
+                <section id="experiment-article-section-7">
+                    <div class="icon" id="experiment-article-section-7-icon">
+                    
+                    <img src="../images/video.jpg" style="padding-left:7px"></div>
+
+                    <div class="heading" id=
+                    "experiment-article-section-7-heading">
+                        Videos
+                    </div>
+
+                    <div class="content" id="experiment-article-section-7-content">
+                        <div class="divContent">
+                         NPTEL:<br>
+                             <a href="https://www.youtube.com/watch?v=MJeRFzs4oRU&list=PLBEA57F7E7560C8E8">Kinematics of Machines</a><br>
+                        </div>
+                    </div>
+                </section>
+
+           <section id="experiment-article-section-6">
+                    <div class="icon" id="experiment-article-section-6-icon">
+                   
+                    <img src="../images/reference.jpg" style="padding-left: 25px;"></div>
+
+                    <div class="heading" id=
+                    "experiment-article-section-6-heading">
+                        References
+                    </div>
+
+                    <div class="content" id="experiment-article-section-6-content">
+                        <div class="divContent">
+                            <ul><li>
+                            <p style="font-family:courier new,courier,monospace; font-size:18px;">  Robert L. Norton, Design of Machinery, 2nd Edition, WCB McGraw Hill </p></li>
+                            <li><p style="font-family:courier new,courier,monospace; font-size:18px;"> S S Ratan, Theory of Machines, 2nd Edition, Tata McGraw Hill </p></li>
+                            <li><p style="font-family:courier new,courier,monospace; font-size:18px;"> Cam follower,Wikipedia - The Free Encyclopedia</p></li>
+                        </ul></div>
+                    </div>
+                </section>
+<!--                 <section id="experiment-article-section-9">
+                    <div class="icon" id="experiment-article-section-9-icon">
+                    <!-- Enclose the icon image of your lab.-->
+    <!--                <img src="../images/nptel_library_icon.png"></div>
+
+                    <div class="heading" id=
+                    "experiment-article-section-9-heading">
+                        NPTEL  
+                    </div>
+
+                    <div class="content" id=
+                    "experiment-article-section-9-content">
+                        <div class="divContent">
+                        </div>
+                    </div>
+                </section> -->
+            
+<section id="lab-article-section-9">
+        
+<div id="lab-article-section-9-icon" class="icon">
+<!-- Enclose the icon image for the section. -->
+<img src="../images/feedback.jpg" style="padding-left: 16px;" />
+</div>
+<!-- The heading for the section can be enclosed in a div tag and shown with a <h2> tag -->
+<div id="lab-article-section-9-heading" class="heading">
+Feedback
+</div>
+<!-- Write the section content inside a paragraph element, You can also include images with <img> tag -->
+<div id="lab-article-section-9-content" class="content">
+
+
+<!-- Custom form start -->
+
+<form method="POST" action="http://rtlabs.nitk.ac.in/feedback.php" role="form">
+<input type="hidden" name="code" value="2">
+ <div class="form-group"> 
+    <label for="name">What is your name?</label> <span class="error">*</span><br>
+    <input type="text" style="width:700px;" name="name" class="form-control" value="" placeholder="You may chose to be Anonymous if you do not wish to disclose your name."required="">
+   <br><br>
+   </div>
+    <div class="form-group"> 
+    <label for="org">Which organization are you associated with?</label><span class="error">*</span><br>
+     <input type="text" style="width:700px;" name="org"  class="form-control" value="" placeholder="Name of your College/Institute/University/Organization."required="">
+   <br><br>
+   </div>
+   <div class="form-group">
+    <label for="discipline">Which is your primary discipline?</label><span class="error">*</span><br>
+   <input type="text" style="width:700px;" name="discipline" class="form-control" value="" placeholder="Example: Mechanical Engineering, Nanotechnology, Biomedical, Mathematics etc."required="">
+   
+   <br><br>
+   </div>
+   <label>Which of the following best describes your current work?</label> <span class="error">*</span><br>
+    <div class="radio"><label><input type="radio" required name="occ" checked="true"  value="Studying">Studying<br></label></div>
+    <div class="radio"><label><input type="radio" required  name="occ"  value="Teaching">Teaching<br></label></div>
+    <div class="radio"><label><input type="radio" required name="occ"   value="Research">Research<br></label></div>
+    <div class="radio"><label><input type="radio" required name="occ"  value="Industry">Industry<br></label></div>
+    <div class="radio"><label><input type="radio" required name="occ"   value="other">Other <input type="text" name="occ-other"></input></label></div>
+
+   <br>
+   <div class="form-group">
+   <label>Experiment Performed </label><span class="error">* </span><br>
+   <select class="form-control" name="exp"  required>
+  <option value="Choose" disabled>Choose</option>
+<option value="Ecccentric Cam Mechanism">Ecccentric Cam Mechanism</option>
+</select>
+
+</div>
+<br>
+<label>Please tell your agreement with the following </label><span class="error">* </span><br>
+<table style="width:100%; margin:0">
+  <tr>
+    <td></td>
+    <td style="text-align:center; width:70px">Excellent</td>    
+    <td style="text-align:center; width:70px">Very Good</td>
+    <td style="text-align:center; width:70px">Good</td>
+    <td style="text-align:center; width:70px">Average</td>
+    <td style="text-align:center; width:70px">Needs Improvement</td>
+  </tr>
+  <tr>
+    <td>To what degree was the actual lab environment simulated</td>
+
+    <td style="text-align:center;">   <div class="radio"><label><input type="radio" checked="true"  required name="rea"  value="5"></label></div></td>    
+    <td style="text-align:center;">   <div class="radio"><label><input type="radio" required  name="rea"  value="4"></label></div></td>
+    <td style="text-align:center;">   <div class="radio"><label><input type="radio"required name="rea"   value="3"></label></div></td>
+   <td style="text-align:center;">   <div class="radio"><label><input type="radio" required name="rea"  value="2"></label></div></td>
+   <td style="text-align:center;">   <div class="radio"><label><input type="radio" required name="rea"  value="1"></label></div></td>
+  </tr>
+  <tr>
+    <td>The theory and procedure were found to be helpful</td>
+    <td style="text-align:center;"> <div class="radio"><label><input type="radio"required checked="true"  name="tnp"  value="5"></label></div></td>    
+    <td style="text-align:center;"> <div class="radio"><label><input type="radio"required  name="tnp"   value="4"></label></div></td>
+    <td style="text-align:center;"> <div class="radio"><label><input type="radio"required  name="tnp"   value="3"></label></div></td>
+   <td style="text-align:center;"> <div class="radio"><label><input type="radio"required name="tnp"  value="2"></label></div></td>
+   <td style="text-align:center;"> <div class="radio"><label><input type="radio"required name="tnp"   value="1"></label></div></td>
+  </tr>
+  <tr>
+    <td>The results of simulation/experiment were easily interpretable</td>
+    <td style="text-align:center;"> <div class="radio"><label><input type="radio" checked="true"  required name="eas"  value="5"></label></div></td>    
+    <td style="text-align:center;"> <div class="radio"><label><input type="radio"required name="eas"   value="4"></label></div></td>
+    <td style="text-align:center;"> <div class="radio"><label><input type="radio"required name="eas"  value="3"></label></div></td>
+   <td style="text-align:center;"> <div class="radio"><label><input type="radio"required name="eas"  value="2"></label></div></td>
+   <td style="text-align:center;"> <div class="radio"><label><input type="radio"required name="eas"   value="1"></label></div></td>
+  </tr>
+</table>
+<br>
+<div class="form-group">
+<label for="help">How helpful do you feel the system is?</label>
+ <br><input type="text" style="width:700px;" class="form-control"name="help" value="">
+   <br><br>
+   </div>
+<label>Please answer the following questions</label><span class="error">* </span><br>
+<table style="width:100%; border:none; margin:0">
+  <tr>
+    <td></td>
+    <td>Yes</td>    
+    <td>No</td>
+  </tr>
+   <tr>
+    <td>Did you get the feel of actual lab while performing the simulation/experiments</td>
+    <td> <div class="radio"><label><input type="radio"required name="a" checked="true"  value="Y"></label></div></td>    
+    <td> <div class="radio"><label><input type="radio"required name="a"  value="N"></label></div></td>
+    </tr>
+  <tr>
+    <td>Did you read the theory and procedure before performing the simulation/experiments</td>
+    <td> <div class="radio"><label><input type="radio"required name="b" checked="true"  value="Y"></label></div></td>    
+    <td> <div class="radio"><label><input type="radio"required name="b"   value="N"></label></div></td>
+    </tr>
+
+  <tr>
+    <td>Could you conduct the simulation/experiment successfully</td>
+    <td> <div class="radio"><label><input type="radio"required name="c" checked="true"  value="Y"></label></div></td>    
+    <td> <div class="radio"><label><input type="radio"required name="c" value="N"></label></div></td>
+    </tr>
+  <tr>
+    <td>Could you compare your results with the given typical results in explore</td>
+    <td> <div class="radio"><label><input type="radio"required name="d" checked="true"  value="Y"></label></div></td>    
+    <td> <div class="radio"><label><input type="radio"required name="d"   value="N"></label></div></td>
+    </tr>
+  <tr>
+    <td>Do you think performing experiments through virtual labs are more challenging than the real experiments</td>
+    <td> <div class="radio"><label><input type="radio"required name="e"  checked="true"  value="Y"></label></div></td>    
+    <td> <div class="radio"><label><input type="radio"required name="e"   value="N"></label></div></td>
+    </tr>
+  <tr>
+    <td>Do you think doing experiments through virtual lab gives scope for more innovative and creative research work</td>
+    <td> <div class="radio"><label><input type="radio"required name="f"  checked="true"  value="Y"></label></div></td>    
+    <td> <div class="radio"><label><input type="radio"required name="f"  value="N"></label></div></td>
+    </tr>
+</table>
+<br><br>
+<div class="form-group">
+<label for="c1">Please mention any problems/difficulties you faced while performing the simulation/experiment. It will help us improve the content for your later visits.</label>
+<br><textarea  name="c1" class="form-control" rows="4" cols="50"></textarea>
+<br><br>
+</div>
+<div class="form-group">
+<label for="c2">What do you find most interesting thing about the simulation/experiment? We would be happy to know what delighted you.</label>
+<br><textarea name="c2" class="form-control" rows="4" cols="50"></textarea>
+<br><br>
+</div>
+<div class="form-group">
+<label for="c2">Is there anything else that you would like to tell us ?</label>
+<br><textarea name="c3"class="form-control"  rows="4" cols="50"></textarea>
+<br><br>
+</div>
+<button type="submit" name="submit"  class="btn btn-default" value="Submit"> Submit </button>
+</form>
+
+
+<!-- Custom form complete -->
+
+</div>
+	
+</section>
+
+            </div>
+        </article>
+    </div>
+</body>
+</html>

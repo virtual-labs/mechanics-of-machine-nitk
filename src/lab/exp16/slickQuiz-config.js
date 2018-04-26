@@ -15,15 +15,15 @@ var quizJSON = {
     },
     "questions": [
         { // Question 1 - Multiple Choice, Single True Answer
-            "q": "Grashof's condition is the necessary condition for?",
+            "q": "How many four bar mechanisms are used in the Tchebichev walking mechanism?",
             "a": [
-                {"option": "Continuous motion",      "correct": true},
-                {"option": "Non Continuous motion",     "correct": false},
-                {"option": "Intermittent motion",      "correct": false},
-                {"option": "None of these",     "correct": false} // no comma here
+                {"option": "1",      "correct": true},
+                {"option": "2",     "correct": false},
+                {"option": "3",      "correct": false},
+                {"option": "4",     "correct": false} // no comma here
             ],
-            "correct": "<p><span>Right answer</span> Ans:Continuous motion</p>",
-            "incorrect": "<p><span>wrong</span> It's wrong,<br>Ans:Continuous motion</p>" // no comma here
+            "correct": "<p><span>Right answer</span> Ans : 1</p>",
+            "incorrect": "<p><span>wrong</span> It's wrong,<br>Ans : 1</p>" // no comma here
         },
         { // Question 2 - Multiple Choice, Multiple True Answers, Select Any
             "q": "If the shortest link is 10cm in Tchebichev Mechanism, what is the length of longest link?",
@@ -58,20 +58,6 @@ var quizJSON = {
             ],
             "correct": "<p><span>Right answer</span> </p>",
             "incorrect": "<p><span>wrong</span><br>Correct Answer is : Mid-point of shortest link </p>"  // no comma here
-        },
-        { // Question 5 
-            "q": " Watt's linkage draws  ",
-            "a": [
-                {"option": " Perfect Straight Line ",    "correct": false},
-                {"option": " Approximate Straight Line",     "correct": true},
-		 {"option": " Circle",  "correct": false},
-                {"option": " None of these",  "correct": false} 
-
-
-// no comma here
-            ],
-            "correct": "<p><span>Right answer</span></p>",
-            "incorrect": "<p><span>wrong</span>Correct Answer is : Approximate Straight Line </p>"  // no comma here
-        } // no comma here
+        }
     ]
 };
